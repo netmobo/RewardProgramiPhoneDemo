@@ -1,0 +1,10 @@
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m: In function '-[RestTransport3 doGet:params:]':
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m:85: warning: invalid receiver type 'NSInteger'
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m: In function '-[RestTransport3 doPost:with:and:]':
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m:153: warning: invalid receiver type 'NSInteger'
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m: In function '-[RestTransport3 doPut:with:and:]':
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m:225: warning: invalid receiver type 'NSInteger'
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m: In function '-[RestTransport3 doDevicePut:with:and:]':
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m:288: warning: invalid receiver type 'NSInteger'
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m: In function '-[RestTransport3 doDelete:with:]':
+/AurisoftApps/Netmobo/Demos/Reward/RestTransport3.m:343: warning: invalid receiver type 'NSInteger'

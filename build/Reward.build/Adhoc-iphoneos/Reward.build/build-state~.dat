@@ -1,0 +1,1019 @@
+TReward
+v7
+r0
+t304416953.204498
+cCheck dependencies
+cCpResource build/Adhoc-iphoneos/Reward.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Info.plist Reward-Info.plist
+cCompileXIB /AurisoftApps/Netmobo/Demos/Reward/MainWindow.xib
+cCompileXIB /AurisoftApps/Netmobo/Demos/Reward/RewardViewController.xib
+cCompileXIB /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.xib
+cCompileXIB /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryCell.xib
+cCopyPNGFile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/grayline.png grayline.png
+cCompileXIB /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.xib
+cCompileXIB /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsCell.xib
+cCompileXIB /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.xib
+cProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch.gch Reward_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch.gch Reward_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/main.o /AurisoftApps/Netmobo/Demos/Reward/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardAppDelegate.o /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/LoginViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Model.o /AurisoftApps/Netmobo/Demos/Reward/Model.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistory.o /AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistoryTableCell.o /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Label2.o /AurisoftApps/Netmobo/Demos/Reward/Label2.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewards.o /AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsTableCell.o /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/EarnPointsViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/main.o /AurisoftApps/Netmobo/Demos/Reward/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardAppDelegate.o /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward normal armv6
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/LoginViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Model.o /AurisoftApps/Netmobo/Demos/Reward/Model.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistory.o /AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistoryTableCell.o /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Label2.o /AurisoftApps/Netmobo/Demos/Reward/Label2.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewards.o /AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsTableCell.o /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/EarnPointsViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward normal armv7
+cCreateUniversalBinary /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward normal "armv6 armv7"
+cGenerateDSYMFile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app.dSYM /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward
+cProcessProductPackaging "/Users/vipm/Library/MobileDevice/Provisioning Profiles/B33C0837-FAC5-49CE-8C6B-CAC40ECA0D3D.mobileprovision" /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/embedded.mobileprovision
+cTouch /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+cProcessProductPackaging /AurisoftApps/Netmobo/Demos/Reward/Entitlements.plist /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward.xcent
+cCodeSign /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+cValidate /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+
+N/AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.h
+c000000004C74732300000000000001A9
+t1282700067
+s425
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m
+c000000004C74732300000000000001F5
+t1282700067
+s501
+i"ClaimRewards.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsCell.xib
+c000000004C74AA460000000000006937
+t1282714182
+s26935
+
+N/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.h
+c000000004C7493AB00000000000001FC
+t1282708395
+s508
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m
+c000000004C7493BA000000000000023C
+t1282708410
+s572
+i"ClaimRewardsTableCell.h"
+i"ClaimRewards.h"
+i"Label2.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.h
+c000000004C74B2040000000000000304
+t1282716164
+s772
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m
+c000000004C74C60F00000000000018BB
+t1282721295
+s6331
+i"ClaimRewardsViewController.h"
+i"Model.h"
+i"RewardAppDelegate.h"
+i"ClaimRewards.h"
+i"ClaimRewardsTableCell.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.xib
+c000000004C74C74C00000000000092C4
+t1282721612
+s37572
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.h
+c000000004C74BEDF00000000000002FC
+t1282719455
+s764
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m
+c000000004C74C61500000000000018A6
+t1282721301
+s6310
+i"EarnPointsViewController.h"
+i"Model.h"
+i"RewardAppDelegate.h"
+i"ClaimRewards.h"
+i"ClaimRewardsTableCell.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.xib
+c000000004C74C74E0000000000009232
+t1282721614
+s37426
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.h
+c000000004C74732300000000000001C4
+t1282700067
+s452
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m
+c000000004C749C590000000000000B03
+t1282710617
+s2819
+i"LoginViewController.h"
+i"RewardAppDelegate.h"
+i"Model.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.xib
+c000000004C71F3370000000000006534
+t1282536247
+s25908
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.h
+c000000004C7473230000000000000219
+t1282700067
+s537
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m
+c000000004C747323000000000000026A
+t1282700067
+s618
+i"PointsHistory.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.h
+c000000004C74C0C6000000000000043F
+t1282719942
+s1087
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m
+c000000004C74CDBE00000000000019F3
+t1282723262
+s6643
+i"RewardAppDelegate.h"
+i"RewardViewController.h"
+i"Model.h"
+i"LoginViewController.h"
+i"ClaimRewardsViewController.h"
+i"EarnPointsViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.h
+c000000004C74B0ED00000000000002D5
+t1282715885
+s725
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m
+c000000004C74C5100000000000001638
+t1282721040
+s5688
+i"RewardViewController.h"
+i"PointsHistory.h"
+i"PointsHistoryTableCell.h"
+i"Model.h"
+i"RewardAppDelegate.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/Entitlements.plist
+c000000004C74D0ED00000000000000E1
+t1282724077
+s225
+
+N/AurisoftApps/Netmobo/Demos/Reward/Label2.h
+c000000004C71BB610000000000000161
+t1282521953
+s353
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Label2.m
+c000000004C71BB8F00000000000005CF
+t1282521999
+s1487
+i"Label2.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/MainWindow.xib
+c000000004C6E16400000000000004E1D
+t1282283072
+s19997
+
+N/AurisoftApps/Netmobo/Demos/Reward/Model.h
+c000000004C74B03D00000000000001BF
+t1282715709
+s447
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/Model.m
+c000000004C74CFA600000000000003FD
+t1282723750
+s1021
+i"Model.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryCell.xib
+c000000004C74967F0000000000007136
+t1282709119
+s28982
+
+N/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.h
+c000000004C7473230000000000000262
+t1282700067
+s610
+i<Foundation/Foundation.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m
+c000000004C74732300000000000002BE
+t1282700067
+s702
+i"PointsHistoryTableCell.h"
+i"PointsHistory.h"
+i"Label2.h"
+
+N/AurisoftApps/Netmobo/Demos/Reward/RewardViewController.xib
+c000000004C74C74B00000000000098AD
+t1282721611
+s39085
+
+N/AurisoftApps/Netmobo/Demos/Reward/Reward_Prefix.pch
+c000000004C6E164000000000000000B5
+t1282283072
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+t1282724152
+s578
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app.dSYM
+t1282724152
+s102
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/ClaimRewardsCell.nib
+t1282724147
+s3712
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/ClaimRewardsViewController.nib
+t1282724147
+s5680
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/EarnPointsViewController.nib
+t1282724147
+s5623
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Info.plist
+t1282724145
+s721
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/LoginViewController.nib
+t1282724146
+s4314
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/MainWindow.nib
+t1282724145
+s1679
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/PkgInfo
+t1282724145
+s8
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/PointsHistoryCell.nib
+t1282724146
+s4062
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/ResourceRules.plist
+t1282724145
+s485
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward
+t1282724152
+s133452
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/RewardViewController.nib
+t1282724145
+s5856
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/embedded.mobileprovision
+t1282724152
+s7475
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/grayline.png
+t1282724146
+s239
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewards.o
+t1282724150
+s9264
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsTableCell.o
+t1282724150
+s36832
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsViewController.o
+t1282724150
+s68224
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/EarnPointsViewController.o
+t1282724150
+s68092
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Label2.o
+t1282724150
+s37324
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/LoginViewController.o
+t1282724149
+s47864
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Model.o
+t1282724149
+s12772
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistory.o
+t1282724150
+s10304
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistoryTableCell.o
+t1282724150
+s38036
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward
+t1282724151
+s64032
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward.LinkFileList
+c000000004C74D13100000000000005B5
+t1282724145
+s1461
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardAppDelegate.o
+t1282724149
+s58196
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardViewController.o
+t1282724149
+s62956
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/main.o
+t1282724149
+s6428
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewards.o
+t1282724151
+s9272
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsTableCell.o
+t1282724151
+s36824
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsViewController.o
+t1282724151
+s67976
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/EarnPointsViewController.o
+t1282724152
+s67844
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Label2.o
+t1282724151
+s37072
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/LoginViewController.o
+t1282724151
+s47824
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Model.o
+t1282724151
+s12660
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistory.o
+t1282724151
+s10320
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistoryTableCell.o
+t1282724151
+s38032
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward
+t1282724152
+s63820
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward.LinkFileList
+c000000004C74D13100000000000005B5
+t1282724145
+s1461
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardAppDelegate.o
+t1282724150
+s58140
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardViewController.o
+t1282724151
+s62880
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/main.o
+t1282724150
+s6408
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward.xcent
+t1282724152
+s397
+
+N/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/AurisoftApps/Netmobo/Demos/Reward/grayline.png
+c000000004C71C00500000000000000B9
+t1282523141
+s185
+
+N/AurisoftApps/Netmobo/Demos/Reward/main.m
+c000000004C7473230000000000000165
+t1282700067
+s357
+i<UIKit/UIKit.h>
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C5B59520000000000000110
+t1281055058
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C0458CC00000000000000C4
+t1275353292
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C045AEF0000000000253180
+t1275353839
+s2437504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Users/vipm/Library/MobileDevice/Provisioning Profiles/B33C0837-FAC5-49CE-8C6B-CAC40ECA0D3D.mobileprovision
+c000000004C744E8B0000000000001D33
+t1282690699
+s7475
+
+N/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch.gch
+t1282724149
+s10110512
+
+N/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch.gch
+t1282724148
+s9651760
+
+NReward-Info.plist
+c000000004C7464400000000000000371
+t1282696256
+s881
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies304416945#304416945#0(0"0(0#1#0"8621548416#0"0#
+
+CCodeSign /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+s304416952.425875
+e304416952.716060
+r1
+xCodeSign
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+lSLF07#2@40"CodeSign build/Adhoc-iphoneos/Reward.app304416952#304416952#0(0"0(0#0#66"/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app8624237056#619"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Vicente Malixi" --resource-rules=/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/ResourceRules.plist --entitlements /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward.xcent /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewards.o /AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416950.193878
+e304416950.286146
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewards.o
+x/AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m304416950#304416950#0(0"0(0#0#49"/AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m8626950400#1717"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewards.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsTableCell.o /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416950.286253
+e304416950.378773
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsTableCell.o
+x/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m304416950#304416950#0(0"0(0#0#58"/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m8626034624#1735"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsTableCell.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416950.082277
+e304416950.518678
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsViewController.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m304416950#304416950#0(0"0(0#0#71"/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m8629838112#1753"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/ClaimRewardsViewController.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/EarnPointsViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416950.378878
+e304416950.847424
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/EarnPointsViewController.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m304416950#304416950#0(0"0(0#0#69"/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m8625582720#1749"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/EarnPointsViewController.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Label2.o /AurisoftApps/Netmobo/Demos/Reward/Label2.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416950.041981
+e304416950.193775
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Label2.o
+x/AurisoftApps/Netmobo/Demos/Reward/Label2.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /AurisoftApps/Netmobo/Demos/Reward/Label2.m304416950#304416950#0(0"0(0#0#43"/AurisoftApps/Netmobo/Demos/Reward/Label2.m8636578368#1705"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Label2.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Label2.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/LoginViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416949.614257
+e304416949.782367
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/LoginViewController.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m304416949#304416949#0(0"0(0#0#64"/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m8644029920#1739"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/LoginViewController.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Model.o /AurisoftApps/Netmobo/Demos/Reward/Model.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416949.782472
+e304416949.920898
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Model.o
+x/AurisoftApps/Netmobo/Demos/Reward/Model.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /AurisoftApps/Netmobo/Demos/Reward/Model.m304416949#304416949#0(0"0(0#0#42"/AurisoftApps/Netmobo/Demos/Reward/Model.m8629458912#1703"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Model.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Model.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistory.o /AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416949.920996
+e304416950.041873
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistory.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m304416949#304416950#0(0"0(0#0#58"/AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m8627269120#1727"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistory.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistoryTableCell.o /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416949.925346
+e304416950.082168
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistoryTableCell.o
+x/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m304416949#304416950#0(0"0(0#0#59"/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m8626084256#1737"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/PointsHistoryTableCell.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardAppDelegate.o /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416949.266791
+e304416949.614156
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardAppDelegate.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m304416949#304416949#0(0"0(0#0#62"/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m8620654464#1735"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardAppDelegate.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416949.483931
+e304416949.925245
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardViewController.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m304416949#304416949#0(0"0(0#0#65"/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m8625294208#1741"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/RewardViewController.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/main.o /AurisoftApps/Netmobo/Demos/Reward/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416949.265704
+e304416949.483829
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/main.o
+x/AurisoftApps/Netmobo/Demos/Reward/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /AurisoftApps/Netmobo/Demos/Reward/main.m304416949#304416949#0(0"0(0#0#41"/AurisoftApps/Netmobo/Demos/Reward/main.m8623117504#1701"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/main.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewards.o /AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.545448
+e304416951.652846
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewards.o
+x/AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m304416951#304416951#0(0"0(0#0#49"/AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m8624433088#1717"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/ClaimRewards.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewards.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsTableCell.o /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.652948
+e304416951.785273
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsTableCell.o
+x/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m304416951#304416951#0(0"0(0#0#58"/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m8643840384#1735"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsTableCell.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsTableCell.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.444768
+e304416951.875447
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsViewController.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m304416951#304416951#0(0"0(0#0#71"/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m8626040480#1753"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/ClaimRewardsViewController.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/EarnPointsViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.785376
+e304416952.066127
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/EarnPointsViewController.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m304416951#304416952#0(0"0(0#0#69"/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m8629551712#1749"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/EarnPointsViewController.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Label2.o /AurisoftApps/Netmobo/Demos/Reward/Label2.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.399117
+e304416951.545346
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Label2.o
+x/AurisoftApps/Netmobo/Demos/Reward/Label2.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /AurisoftApps/Netmobo/Demos/Reward/Label2.m304416951#304416951#0(0"0(0#0#43"/AurisoftApps/Netmobo/Demos/Reward/Label2.m8627586944#1705"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Label2.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Label2.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/LoginViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.054449
+e304416951.193841
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/LoginViewController.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m304416951#304416951#0(0"0(0#0#64"/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m8625848224#1739"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/LoginViewController.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Model.o /AurisoftApps/Netmobo/Demos/Reward/Model.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.193937
+e304416951.314472
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Model.o
+x/AurisoftApps/Netmobo/Demos/Reward/Model.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /AurisoftApps/Netmobo/Demos/Reward/Model.m304416951#304416951#0(0"0(0#0#42"/AurisoftApps/Netmobo/Demos/Reward/Model.m8602329088#1703"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Model.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Model.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistory.o /AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.264811
+e304416951.399017
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistory.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m304416951#304416951#0(0"0(0#0#58"/AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m8636160000#1727"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/PointsHistory.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistory.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistoryTableCell.o /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416951.314580
+e304416951.444669
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistoryTableCell.o
+x/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m304416951#304416951#0(0"0(0#0#59"/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m8634444832#1737"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryTableCell.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/PointsHistoryTableCell.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardAppDelegate.o /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416950.576590
+e304416950.824794
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardAppDelegate.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m304416950#304416950#0(0"0(0#0#62"/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m8633525568#1735"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardAppDelegate.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardAppDelegate.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardViewController.o /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416950.825713
+e304416951.054339
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardViewController.o
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m304416950#304416951#0(0"0(0#0#65"/AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m8602986720#1741"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/Classes/RewardViewController.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/RewardViewController.o0#
+
+CCompileC build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/main.o /AurisoftApps/Netmobo/Demos/Reward/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416950.518779
+e304416950.576486
+r1
+xCompileC
+xbuild/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/main.o
+x/AurisoftApps/Netmobo/Demos/Reward/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /AurisoftApps/Netmobo/Demos/Reward/main.m304416950#304416950#0(0"0(0#0#41"/AurisoftApps/Netmobo/Demos/Reward/main.m8643570592#1701"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch -c /AurisoftApps/Netmobo/Demos/Reward/main.m -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsCell.xib
+s304416946.670265
+e304416947.164786
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsCell.xib
+lSLF07#2@31"CompileXIB ClaimRewardsCell.xib304416946#304416947#0(0"0(0#0#55"/AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsCell.xib8633691072#541"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/ClaimRewardsCell.nib /AurisoftApps/Netmobo/Demos/Reward/ClaimRewardsCell.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.xib
+s304416946.591723
+e304416947.308394
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.xib
+lSLF07#2@49"CompileXIB Classes/ClaimRewardsViewController.xib304416946#304416947#0(0"0(0#0#73"/AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.xib8637181056#569"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/ClaimRewardsViewController.nib /AurisoftApps/Netmobo/Demos/Reward/Classes/ClaimRewardsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.xib
+s304416947.164877
+e304416947.700607
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.xib
+lSLF07#2@47"CompileXIB Classes/EarnPointsViewController.xib304416947#304416947#0(0"0(0#0#71"/AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.xib8626347200#565"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/EarnPointsViewController.nib /AurisoftApps/Netmobo/Demos/Reward/Classes/EarnPointsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.xib
+s304416945.734559
+e304416946.457334
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.xib
+lSLF07#2@42"CompileXIB Classes/LoginViewController.xib304416945#304416946#0(0"0(0#0#66"/AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.xib8636054944#555"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/LoginViewController.nib /AurisoftApps/Netmobo/Demos/Reward/Classes/LoginViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /AurisoftApps/Netmobo/Demos/Reward/MainWindow.xib
+s304416945.169983
+e304416945.734470
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Demos/Reward/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib304416945#304416945#0(0"0(0#0#49"/AurisoftApps/Netmobo/Demos/Reward/MainWindow.xib8626837856#529"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/MainWindow.nib /AurisoftApps/Netmobo/Demos/Reward/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryCell.xib
+s304416945.936951
+e304416946.670076
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryCell.xib
+lSLF07#2@32"CompileXIB PointsHistoryCell.xib304416945#304416946#0(0"0(0#0#56"/AurisoftApps/Netmobo/Demos/Reward/PointsHistoryCell.xib8633745024#543"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/PointsHistoryCell.nib /AurisoftApps/Netmobo/Demos/Reward/PointsHistoryCell.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /AurisoftApps/Netmobo/Demos/Reward/RewardViewController.xib
+s304416945.170942
+e304416945.935953
+r1
+xCompileXIB
+x/AurisoftApps/Netmobo/Demos/Reward/RewardViewController.xib
+lSLF07#2@35"CompileXIB RewardViewController.xib304416945#304416945#0(0"0(0#0#59"/AurisoftApps/Netmobo/Demos/Reward/RewardViewController.xib8626275968#549"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/RewardViewController.nib /AurisoftApps/Netmobo/Demos/Reward/RewardViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/grayline.png grayline.png
+s304416946.457433
+e304416946.591615
+r1
+xCopyPNGFile
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/grayline.png
+xgrayline.png
+lSLF07#2@69"CopyPNGFile build/Adhoc-iphoneos/Reward.app/grayline.png grayline.png304416946#304416946#0(0"0(0#0#47"/AurisoftApps/Netmobo/Demos/Reward/grayline.png8643650016#551"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /AurisoftApps/Netmobo/Demos/Reward/grayline.png /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/grayline.png0#
+
+CCpResource build/Adhoc-iphoneos/Reward.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s304416945.105480
+e304416945.169865
+r1
+xCpResource
+xbuild/Adhoc-iphoneos/Reward.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist304416945#304416945#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8629318176#492"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app0#
+
+CCreateUniversalBinary /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward normal "armv6 armv7"
+s304416952.281642
+e304416952.319979
+r1
+xCreateUniversalBinary
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward
+xnormal
+xarmv6 armv7
+lSLF07#2@81"CreateUniversalBinary build/Adhoc-iphoneos/Reward.app/Reward normal "armv6 armv7"304416952#304416952#0(0"0(0#0#46"/AurisoftApps/Netmobo/Demos/Reward/armv6 armv78634395200#494"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward -output /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward0#
+
+CGenerateDSYMFile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app.dSYM /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward
+s304416952.320082
+e304416952.396408
+r1
+xGenerateDSYMFile
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app.dSYM
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward
+lSLF07#2@92"GenerateDSYMFile build/Adhoc-iphoneos/Reward.app.dSYM build/Adhoc-iphoneos/Reward.app/Reward304416952#304416952#0(0"0(0#0#73"/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward8630309600#347"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Reward -o /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app.dSYM0#
+
+CLd /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward normal armv6
+s304416950.847519
+e304416951.264694
+r1
+xLd
+x/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward
+xnormal
+xarmv6
+lSLF07#2@114"Link /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward304416950#304416951#0(0"0(0#0#0"8627422304#855"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -filelist /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv6/Reward0#
+
+CLd /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward normal armv7
+s304416952.066232
+e304416952.281534
+r1
+xLd
+x/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward
+xnormal
+xarmv7
+lSLF07#2@114"Link /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward304416952#304416952#0(0"0(0#0#0"8621033952#855"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -filelist /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward.LinkFileList -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Objects-normal/armv7/Reward0#
+
+CProcessInfoPlistFile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Info.plist Reward-Info.plist
+s304416945.106425
+e304416945.137445
+r1
+xProcessInfoPlistFile
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Info.plist
+xReward-Info.plist
+lSLF07#2@25"Process Reward-Info.plist304416945#304416945#0(0"0(0#0#52"/AurisoftApps/Netmobo/Demos/Reward/Reward-Info.plist8628775072#542"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Reward-Info.plist -genpkginfo /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/ResourceRules.plist -o /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/Info.plist0#
+
+CProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch.gch Reward_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304416947.701667
+e304416949.265596
+r1
+xProcessPCH
+x/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch.gch
+xReward_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Reward_Prefix.pch304416947#304416949#0(0"0(0#0#52"/AurisoftApps/Netmobo/Demos/Reward/Reward_Prefix.pch8630315872#1604"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv7 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /AurisoftApps/Netmobo/Demos/Reward/Reward_Prefix.pch -o /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-fcwfpoqtgeljiiavqklzrpbpjscv/Reward_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch.gch Reward_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304416947.700756
+e304416949.166089
+r1
+xProcessPCH
+x/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch.gch
+xReward_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Reward_Prefix.pch304416947#304416949#0(0"0(0#0#52"/AurisoftApps/Netmobo/Demos/Reward/Reward_Prefix.pch8625411008#1604"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-generated-files.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-own-target-headers.hmap -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-all-target-headers.hmap -iquote /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward-project-headers.hmap -F/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos -I/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/include -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources/armv6 -I/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /AurisoftApps/Netmobo/Demos/Reward/Reward_Prefix.pch -o /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-hjmaptloqagghbcypwxqtxkfqvra/Reward_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/vipm/Library/MobileDevice/Provisioning Profiles/B33C0837-FAC5-49CE-8C6B-CAC40ECA0D3D.mobileprovision" /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/embedded.mobileprovision
+s304416952.396615
+e304416952.420196
+r1
+xProcessProductPackaging
+x/Users/vipm/Library/MobileDevice/Provisioning Profiles/B33C0837-FAC5-49CE-8C6B-CAC40ECA0D3D.mobileprovision
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/embedded.mobileprovision
+lSLF07#2@190"ProcessProductPackaging "/Users/vipm/Library/MobileDevice/Provisioning Profiles/B33C0837-FAC5-49CE-8C6B-CAC40ECA0D3D.mobileprovision" build/Adhoc-iphoneos/Reward.app/embedded.mobileprovision304416952#304416952#0(0"0(0#0#91"/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/embedded.mobileprovision8626987040#413"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/vipm/Library/MobileDevice/Provisioning Profiles/B33C0837-FAC5-49CE-8C6B-CAC40ECA0D3D.mobileprovision" -o /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /AurisoftApps/Netmobo/Demos/Reward/Entitlements.plist /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward.xcent
+s304416952.424414
+e304416952.425819
+r1
+xProcessProductPackaging
+x/AurisoftApps/Netmobo/Demos/Reward/Entitlements.plist
+x/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward.xcent
+lSLF07#2@102"ProcessProductPackaging Entitlements.plist build/Reward.build/Adhoc-iphoneos/Reward.build/Reward.xcent304416952#304416952#0(0"0(0#0#94"/AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward.xcent8601716320#386"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /AurisoftApps/Netmobo/Demos/Reward/Entitlements.plist -entitlements -format xml -o /AurisoftApps/Netmobo/Demos/Reward/build/Reward.build/Adhoc-iphoneos/Reward.build/Reward.xcent0#
+
+CTouch /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+s304416952.420271
+e304416952.424321
+r1
+xTouch
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+lSLF07#2@72"Touch /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app304416952#304416952#0(0"0(0#0#0"8625532960#255"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app0#
+
+CValidate /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+s304416952.716141
+e304416953.204448
+r1
+xValidate
+x/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app
+owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)
+oUnable to validate your application. - (null)
+o
+lSLF07#2@40"Validate build/Adhoc-iphoneos/Reward.app304416952#304416953#0(263"warning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)Unable to validate your application. - (null)1(22@207" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  Your MinimumOSVersion is below 3.2, so you must define CFBundleIconFile or provide a default Icon.png that is 57x57. (-19013)304416953#18446744073709551615#0#0(6@0"304416953#0#0#0#0#0"0(0#0#66"/AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app8637407008#364"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /AurisoftApps/Netmobo/Demos/Reward/build/Adhoc-iphoneos/Reward.app0#
+
