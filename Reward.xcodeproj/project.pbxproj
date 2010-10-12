@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* RewardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RewardViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RewardViewController.m */; };
+		2E12D1F8126300760031E0AE /* libNetmobo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E12D1F7126300760031E0AE /* libNetmobo.a */; };
 		2E308B141224BE9800645431 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E308B131224BE9800645431 /* QuartzCore.framework */; };
 		2E308B791224C6FF00645431 /* ClaimRewardsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E308B781224C6FF00645431 /* ClaimRewardsTableCell.m */; };
 		2E308B7B1224C80500645431 /* ClaimRewardsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E308B7A1224C80500645431 /* ClaimRewardsCell.xib */; };
@@ -34,7 +35,6 @@
 		2EA393081221E83800A5DF92 /* PointsHistoryTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA393071221E83800A5DF92 /* PointsHistoryTableCell.m */; };
 		2EA393591221F2D200A5DF92 /* Label2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA393581221F2D200A5DF92 /* Label2.m */; };
 		2EA393681221F79A00A5DF92 /* grayline.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EA393671221F79A00A5DF92 /* grayline.png */; };
-		2ED912B01240943E00C99880 /* libNetmobo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED912AF1240943E00C99880 /* libNetmobo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +49,85 @@
 		28D7ACF60DDB3853001CB0EB /* RewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E12D19D126300700031E0AE /* NetmoboFeefactorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetmoboFeefactorModel.h; sourceTree = "<group>"; };
+		2E12D1A0126300700031E0AE /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transactions.h; sourceTree = "<group>"; };
+		2E12D1A1126300700031E0AE /* TransactionDetailRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecord.h; sourceTree = "<group>"; };
+		2E12D1A2126300700031E0AE /* TransactionDetailRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecordSearchResult.h; sourceTree = "<group>"; };
+		2E12D1A4126300700031E0AE /* BrandProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProduct.h; sourceTree = "<group>"; };
+		2E12D1A5126300700031E0AE /* BrandProductBaserate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserate.h; sourceTree = "<group>"; };
+		2E12D1A6126300700031E0AE /* BrandProductBaserateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserateSearchResult.h; sourceTree = "<group>"; };
+		2E12D1A7126300700031E0AE /* BrandProductSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSchedule.h; sourceTree = "<group>"; };
+		2E12D1A8126300700031E0AE /* BrandProductScheduleSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductScheduleSearchResult.h; sourceTree = "<group>"; };
+		2E12D1A9126300700031E0AE /* BrandProductSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSearchResult.h; sourceTree = "<group>"; };
+		2E12D1AA126300700031E0AE /* BrandService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandService.h; sourceTree = "<group>"; };
+		2E12D1AB126300700031E0AE /* BrandServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServices.h; sourceTree = "<group>"; };
+		2E12D1AC126300700031E0AE /* BrandServiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServiceSearchResult.h; sourceTree = "<group>"; };
+		2E12D1AD126300700031E0AE /* ChargeTypeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeTypeOperation.h; sourceTree = "<group>"; };
+		2E12D1AE126300700031E0AE /* BrandProductPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPrice.h; sourceTree = "<group>"; };
+		2E12D1AF126300700031E0AE /* BrandProductPlanPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPrice.h; sourceTree = "<group>"; };
+		2E12D1B0126300700031E0AE /* BrandProductPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPriceSearchResult.h; sourceTree = "<group>"; };
+		2E12D1B1126300700031E0AE /* BrandProductPlanPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPriceSearchResult.h; sourceTree = "<group>"; };
+		2E12D1B3126300700031E0AE /* Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
+		2E12D1B4126300700031E0AE /* PlanRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRC.h; sourceTree = "<group>"; };
+		2E12D1B5126300700031E0AE /* PlanRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRCSearchResult.h; sourceTree = "<group>"; };
+		2E12D1B6126300700031E0AE /* Plans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plans.h; sourceTree = "<group>"; };
+		2E12D1B7126300700031E0AE /* PlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanSearchResult.h; sourceTree = "<group>"; };
+		2E12D1B9126300700031E0AE /* AccountInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoice.h; sourceTree = "<group>"; };
+		2E12D1BA126300700031E0AE /* AccountInvoicePayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePayment.h; sourceTree = "<group>"; };
+		2E12D1BB126300700031E0AE /* AccountInvoicePaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePaymentSearchResult.h; sourceTree = "<group>"; };
+		2E12D1BC126300700031E0AE /* AccountInvoiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoiceSearchResult.h; sourceTree = "<group>"; };
+		2E12D1BD126300700031E0AE /* BillingRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecord.h; sourceTree = "<group>"; };
+		2E12D1BE126300700031E0AE /* BillingRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecordSearchResult.h; sourceTree = "<group>"; };
+		2E12D1BF126300700031E0AE /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
+		2E12D1C0126300700031E0AE /* UserPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPayment.h; sourceTree = "<group>"; };
+		2E12D1C1126300700031E0AE /* UserPaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentSearchResult.h; sourceTree = "<group>"; };
+		2E12D1C3126300700031E0AE /* UserCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCard.h; sourceTree = "<group>"; };
+		2E12D1C4126300700031E0AE /* UserCardSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCardSearchResult.h; sourceTree = "<group>"; };
+		2E12D1C5126300700031E0AE /* UserBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccount.h; sourceTree = "<group>"; };
+		2E12D1C6126300700031E0AE /* UserBankAccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccountSearchResult.h; sourceTree = "<group>"; };
+		2E12D1C7126300700031E0AE /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
+		2E12D1C8126300700031E0AE /* PaymentGatewaySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGatewaySearchResult.h; sourceTree = "<group>"; };
+		2E12D1C9126300700031E0AE /* CardTransactionHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistory.h; sourceTree = "<group>"; };
+		2E12D1CA126300700031E0AE /* CardTransactionHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistorySearchResult.h; sourceTree = "<group>"; };
+		2E12D1CB126300700031E0AE /* CardPayments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPayments.h; sourceTree = "<group>"; };
+		2E12D1CC126300700031E0AE /* UserPaymentAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorization.h; sourceTree = "<group>"; };
+		2E12D1CD126300700031E0AE /* UserPaymentAuthorizationSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorizationSearchResult.h; sourceTree = "<group>"; };
+		2E12D1CF126300700031E0AE /* Brands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brands.h; sourceTree = "<group>"; };
+		2E12D1D0126300700031E0AE /* CurrencySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencySearchResult.h; sourceTree = "<group>"; };
+		2E12D1D1126300700031E0AE /* ExchangeRateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRateSearchResult.h; sourceTree = "<group>"; };
+		2E12D1D2126300700031E0AE /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
+		2E12D1D3126300700031E0AE /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		2E12D1D4126300700031E0AE /* ExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
+		2E12D1D5126300700031E0AE /* BrandProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProfile.h; sourceTree = "<group>"; };
+		2E12D1D6126300700031E0AE /* BrandSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandSearchResult.h; sourceTree = "<group>"; };
+		2E12D1D8126300700031E0AE /* AccountHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistory.h; sourceTree = "<group>"; };
+		2E12D1D9126300700031E0AE /* AccountHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistorySearchResult.h; sourceTree = "<group>"; };
+		2E12D1DA126300700031E0AE /* Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accounts.h; sourceTree = "<group>"; };
+		2E12D1DB126300700031E0AE /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		2E12D1DC126300700031E0AE /* AccountPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlan.h; sourceTree = "<group>"; };
+		2E12D1DD126300700031E0AE /* AccountRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRC.h; sourceTree = "<group>"; };
+		2E12D1DE126300700031E0AE /* AccountRCActivityLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCActivityLog.h; sourceTree = "<group>"; };
+		2E12D1DF126300700031E0AE /* AccountPlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlanSearchResult.h; sourceTree = "<group>"; };
+		2E12D1E0126300700031E0AE /* AccountRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSearchResult.h; sourceTree = "<group>"; };
+		2E12D1E1126300700031E0AE /* AccountRCSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSetting.h; sourceTree = "<group>"; };
+		2E12D1E2126300700031E0AE /* AccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSearchResult.h; sourceTree = "<group>"; };
+		2E12D1E3126300700031E0AE /* AccountDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDevice.h; sourceTree = "<group>"; };
+		2E12D1E4126300700031E0AE /* AccountDeviceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDeviceSearchResult.h; sourceTree = "<group>"; };
+		2E12D1E6126300700031E0AE /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		2E12D1E7126300700031E0AE /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		2E12D1E8126300700031E0AE /* UserQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestion.h; sourceTree = "<group>"; };
+		2E12D1E9126300700031E0AE /* UserQuestionSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestionSearchResult.h; sourceTree = "<group>"; };
+		2E12D1EA126300700031E0AE /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		2E12D1EB126300700031E0AE /* UserSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchResult.h; sourceTree = "<group>"; };
+		2E12D1EC126300700031E0AE /* SelfSignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSignUp.h; sourceTree = "<group>"; };
+		2E12D1ED126300700031E0AE /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		2E12D1F0126300700031E0AE /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
+		2E12D1F1126300700031E0AE /* TypeMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeMapping.h; sourceTree = "<group>"; };
+		2E12D1F2126300700031E0AE /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		2E12D1F3126300700031E0AE /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		2E12D1F5126300700031E0AE /* RestTransport3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestTransport3.h; sourceTree = "<group>"; };
+		2E12D1F6126300700031E0AE /* XmlHeaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlHeaderHelper.h; sourceTree = "<group>"; };
+		2E12D1F7126300760031E0AE /* libNetmobo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNetmobo.a; sourceTree = "<group>"; };
 		2E308B131224BE9800645431 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2E308B771224C6FF00645431 /* ClaimRewardsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClaimRewardsTableCell.h; sourceTree = "<group>"; };
 		2E308B781224C6FF00645431 /* ClaimRewardsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClaimRewardsTableCell.m; sourceTree = "<group>"; };
@@ -81,84 +160,6 @@
 		2EA393571221F2D200A5DF92 /* Label2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label2.h; sourceTree = "<group>"; };
 		2EA393581221F2D200A5DF92 /* Label2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label2.m; sourceTree = "<group>"; };
 		2EA393671221F79A00A5DF92 /* grayline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayline.png; sourceTree = "<group>"; };
-		2ED912AF1240943E00C99880 /* libNetmobo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNetmobo.a; sourceTree = "<group>"; };
-		2ED912B41240944500C99880 /* Transactions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transactions.h; sourceTree = "<group>"; };
-		2ED912B51240944500C99880 /* TransactionDetailRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecord.h; sourceTree = "<group>"; };
-		2ED912B61240944500C99880 /* TransactionDetailRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionDetailRecordSearchResult.h; sourceTree = "<group>"; };
-		2ED912B81240944500C99880 /* BrandProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProduct.h; sourceTree = "<group>"; };
-		2ED912B91240944500C99880 /* BrandProductBaserate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserate.h; sourceTree = "<group>"; };
-		2ED912BA1240944500C99880 /* BrandProductBaserateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductBaserateSearchResult.h; sourceTree = "<group>"; };
-		2ED912BB1240944500C99880 /* BrandProductSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSchedule.h; sourceTree = "<group>"; };
-		2ED912BC1240944500C99880 /* BrandProductScheduleSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductScheduleSearchResult.h; sourceTree = "<group>"; };
-		2ED912BD1240944500C99880 /* BrandProductSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductSearchResult.h; sourceTree = "<group>"; };
-		2ED912BE1240944500C99880 /* BrandService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandService.h; sourceTree = "<group>"; };
-		2ED912BF1240944500C99880 /* BrandServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServices.h; sourceTree = "<group>"; };
-		2ED912C01240944500C99880 /* BrandServiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandServiceSearchResult.h; sourceTree = "<group>"; };
-		2ED912C11240944500C99880 /* ChargeTypeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChargeTypeOperation.h; sourceTree = "<group>"; };
-		2ED912C21240944500C99880 /* BrandProductPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPrice.h; sourceTree = "<group>"; };
-		2ED912C31240944500C99880 /* BrandProductPlanPrice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPrice.h; sourceTree = "<group>"; };
-		2ED912C41240944500C99880 /* BrandProductPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPriceSearchResult.h; sourceTree = "<group>"; };
-		2ED912C51240944500C99880 /* BrandProductPlanPriceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProductPlanPriceSearchResult.h; sourceTree = "<group>"; };
-		2ED912C71240944500C99880 /* Plan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plan.h; sourceTree = "<group>"; };
-		2ED912C81240944500C99880 /* PlanRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRC.h; sourceTree = "<group>"; };
-		2ED912C91240944500C99880 /* PlanRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanRCSearchResult.h; sourceTree = "<group>"; };
-		2ED912CA1240944500C99880 /* Plans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plans.h; sourceTree = "<group>"; };
-		2ED912CB1240944500C99880 /* PlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanSearchResult.h; sourceTree = "<group>"; };
-		2ED912CD1240944500C99880 /* AccountInvoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoice.h; sourceTree = "<group>"; };
-		2ED912CE1240944500C99880 /* AccountInvoicePayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePayment.h; sourceTree = "<group>"; };
-		2ED912CF1240944500C99880 /* AccountInvoicePaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoicePaymentSearchResult.h; sourceTree = "<group>"; };
-		2ED912D01240944500C99880 /* AccountInvoiceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountInvoiceSearchResult.h; sourceTree = "<group>"; };
-		2ED912D11240944500C99880 /* BillingRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecord.h; sourceTree = "<group>"; };
-		2ED912D21240944500C99880 /* BillingRecordSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingRecordSearchResult.h; sourceTree = "<group>"; };
-		2ED912D31240944500C99880 /* Invoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoice.h; sourceTree = "<group>"; };
-		2ED912D41240944500C99880 /* UserPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPayment.h; sourceTree = "<group>"; };
-		2ED912D51240944500C99880 /* UserPaymentSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentSearchResult.h; sourceTree = "<group>"; };
-		2ED912D71240944500C99880 /* UserCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCard.h; sourceTree = "<group>"; };
-		2ED912D81240944500C99880 /* UserCardSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCardSearchResult.h; sourceTree = "<group>"; };
-		2ED912D91240944500C99880 /* UserBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccount.h; sourceTree = "<group>"; };
-		2ED912DA1240944500C99880 /* UserBankAccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBankAccountSearchResult.h; sourceTree = "<group>"; };
-		2ED912DB1240944500C99880 /* PaymentGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentGateway.h; sourceTree = "<group>"; };
-		2ED912DC1240944500C99880 /* CardTransactionHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistory.h; sourceTree = "<group>"; };
-		2ED912DD1240944500C99880 /* CardTransactionHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardTransactionHistorySearchResult.h; sourceTree = "<group>"; };
-		2ED912DE1240944500C99880 /* CardPayments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardPayments.h; sourceTree = "<group>"; };
-		2ED912DF1240944500C99880 /* UserPaymentAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorization.h; sourceTree = "<group>"; };
-		2ED912E01240944500C99880 /* UserPaymentAuthorizationSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPaymentAuthorizationSearchResult.h; sourceTree = "<group>"; };
-		2ED912E21240944500C99880 /* Brands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brands.h; sourceTree = "<group>"; };
-		2ED912E31240944500C99880 /* CurrencySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencySearchResult.h; sourceTree = "<group>"; };
-		2ED912E41240944500C99880 /* ExchangeRateSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRateSearchResult.h; sourceTree = "<group>"; };
-		2ED912E51240944500C99880 /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
-		2ED912E61240944500C99880 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
-		2ED912E71240944500C99880 /* ExchangeRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeRate.h; sourceTree = "<group>"; };
-		2ED912E81240944500C99880 /* BrandProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandProfile.h; sourceTree = "<group>"; };
-		2ED912E91240944500C99880 /* BrandSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandSearchResult.h; sourceTree = "<group>"; };
-		2ED912EB1240944500C99880 /* AccountHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistory.h; sourceTree = "<group>"; };
-		2ED912EC1240944500C99880 /* AccountHistorySearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountHistorySearchResult.h; sourceTree = "<group>"; };
-		2ED912ED1240944500C99880 /* Accounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accounts.h; sourceTree = "<group>"; };
-		2ED912EE1240944500C99880 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
-		2ED912EF1240944500C99880 /* AccountPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlan.h; sourceTree = "<group>"; };
-		2ED912F01240944500C99880 /* AccountRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRC.h; sourceTree = "<group>"; };
-		2ED912F11240944500C99880 /* AccountRCActivityLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCActivityLog.h; sourceTree = "<group>"; };
-		2ED912F21240944500C99880 /* AccountPlanSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountPlanSearchResult.h; sourceTree = "<group>"; };
-		2ED912F31240944500C99880 /* AccountRCSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSearchResult.h; sourceTree = "<group>"; };
-		2ED912F41240944500C99880 /* AccountRCSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountRCSetting.h; sourceTree = "<group>"; };
-		2ED912F51240944500C99880 /* AccountSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSearchResult.h; sourceTree = "<group>"; };
-		2ED912F61240944500C99880 /* AccountDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDevice.h; sourceTree = "<group>"; };
-		2ED912F71240944500C99880 /* AccountDeviceSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDeviceSearchResult.h; sourceTree = "<group>"; };
-		2ED912F91240944500C99880 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		2ED912FA1240944500C99880 /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
-		2ED912FB1240944500C99880 /* UserQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestion.h; sourceTree = "<group>"; };
-		2ED912FC1240944500C99880 /* UserQuestionSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserQuestionSearchResult.h; sourceTree = "<group>"; };
-		2ED912FD1240944500C99880 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
-		2ED912FE1240944500C99880 /* UserSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSearchResult.h; sourceTree = "<group>"; };
-		2ED912FF1240944500C99880 /* SelfSignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSignUp.h; sourceTree = "<group>"; };
-		2ED913001240944500C99880 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
-		2ED913021240944500C99880 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
-		2ED913051240944500C99880 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
-		2ED913061240944500C99880 /* TypeMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeMapping.h; sourceTree = "<group>"; };
-		2ED913071240944500C99880 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
-		2ED913081240944500C99880 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
-		2ED9130A1240944500C99880 /* RestTransport3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestTransport3.h; sourceTree = "<group>"; };
-		2ED9130B1240944500C99880 /* XmlHeaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlHeaderHelper.h; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Reward_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reward_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Reward-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Reward-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -172,7 +173,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
 				2E308B141224BE9800645431 /* QuartzCore.framework in Frameworks */,
-				2ED912B01240943E00C99880 /* libNetmobo.a in Frameworks */,
+				2E12D1F8126300760031E0AE /* libNetmobo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +218,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2ED912B11240944500C99880 /* Netmobo */,
+				2E12D19C126300700031E0AE /* Netmobo V1 */,
 				2E52092A121E4EEC009B3E24 /* Model */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -260,13 +261,194 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2ED912AF1240943E00C99880 /* libNetmobo.a */,
+				2E12D1F7126300760031E0AE /* libNetmobo.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 				2E308B131224BE9800645431 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E12D19C126300700031E0AE /* Netmobo V1 */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1EE126300700031E0AE /* REST_XML_API */,
+				2E12D19E126300700031E0AE /* FeeFactor_API */,
+				2E12D19D126300700031E0AE /* NetmoboFeefactorModel.h */,
+			);
+			name = "Netmobo V1";
+			sourceTree = "<group>";
+		};
+		2E12D19E126300700031E0AE /* FeeFactor_API */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1E5126300700031E0AE /* Users */,
+				2E12D1D7126300700031E0AE /* Accounts */,
+				2E12D1CE126300700031E0AE /* Brands */,
+				2E12D1C2126300700031E0AE /* Cardpayments */,
+				2E12D1B8126300700031E0AE /* Invoices */,
+				2E12D1B2126300700031E0AE /* Plans */,
+				2E12D1A3126300700031E0AE /* Services */,
+				2E12D19F126300700031E0AE /* Transactions */,
+			);
+			name = FeeFactor_API;
+			sourceTree = "<group>";
+		};
+		2E12D19F126300700031E0AE /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1A0126300700031E0AE /* Transactions.h */,
+				2E12D1A1126300700031E0AE /* TransactionDetailRecord.h */,
+				2E12D1A2126300700031E0AE /* TransactionDetailRecordSearchResult.h */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		2E12D1A3126300700031E0AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1A4126300700031E0AE /* BrandProduct.h */,
+				2E12D1A5126300700031E0AE /* BrandProductBaserate.h */,
+				2E12D1A6126300700031E0AE /* BrandProductBaserateSearchResult.h */,
+				2E12D1A7126300700031E0AE /* BrandProductSchedule.h */,
+				2E12D1A8126300700031E0AE /* BrandProductScheduleSearchResult.h */,
+				2E12D1A9126300700031E0AE /* BrandProductSearchResult.h */,
+				2E12D1AA126300700031E0AE /* BrandService.h */,
+				2E12D1AB126300700031E0AE /* BrandServices.h */,
+				2E12D1AC126300700031E0AE /* BrandServiceSearchResult.h */,
+				2E12D1AD126300700031E0AE /* ChargeTypeOperation.h */,
+				2E12D1AE126300700031E0AE /* BrandProductPrice.h */,
+				2E12D1AF126300700031E0AE /* BrandProductPlanPrice.h */,
+				2E12D1B0126300700031E0AE /* BrandProductPriceSearchResult.h */,
+				2E12D1B1126300700031E0AE /* BrandProductPlanPriceSearchResult.h */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2E12D1B2126300700031E0AE /* Plans */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1B3126300700031E0AE /* Plan.h */,
+				2E12D1B4126300700031E0AE /* PlanRC.h */,
+				2E12D1B5126300700031E0AE /* PlanRCSearchResult.h */,
+				2E12D1B6126300700031E0AE /* Plans.h */,
+				2E12D1B7126300700031E0AE /* PlanSearchResult.h */,
+			);
+			name = Plans;
+			sourceTree = "<group>";
+		};
+		2E12D1B8126300700031E0AE /* Invoices */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1B9126300700031E0AE /* AccountInvoice.h */,
+				2E12D1BA126300700031E0AE /* AccountInvoicePayment.h */,
+				2E12D1BB126300700031E0AE /* AccountInvoicePaymentSearchResult.h */,
+				2E12D1BC126300700031E0AE /* AccountInvoiceSearchResult.h */,
+				2E12D1BD126300700031E0AE /* BillingRecord.h */,
+				2E12D1BE126300700031E0AE /* BillingRecordSearchResult.h */,
+				2E12D1BF126300700031E0AE /* Invoice.h */,
+				2E12D1C0126300700031E0AE /* UserPayment.h */,
+				2E12D1C1126300700031E0AE /* UserPaymentSearchResult.h */,
+			);
+			name = Invoices;
+			sourceTree = "<group>";
+		};
+		2E12D1C2126300700031E0AE /* Cardpayments */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1C3126300700031E0AE /* UserCard.h */,
+				2E12D1C4126300700031E0AE /* UserCardSearchResult.h */,
+				2E12D1C5126300700031E0AE /* UserBankAccount.h */,
+				2E12D1C6126300700031E0AE /* UserBankAccountSearchResult.h */,
+				2E12D1C7126300700031E0AE /* PaymentGateway.h */,
+				2E12D1C8126300700031E0AE /* PaymentGatewaySearchResult.h */,
+				2E12D1C9126300700031E0AE /* CardTransactionHistory.h */,
+				2E12D1CA126300700031E0AE /* CardTransactionHistorySearchResult.h */,
+				2E12D1CB126300700031E0AE /* CardPayments.h */,
+				2E12D1CC126300700031E0AE /* UserPaymentAuthorization.h */,
+				2E12D1CD126300700031E0AE /* UserPaymentAuthorizationSearchResult.h */,
+			);
+			name = Cardpayments;
+			sourceTree = "<group>";
+		};
+		2E12D1CE126300700031E0AE /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1CF126300700031E0AE /* Brands.h */,
+				2E12D1D0126300700031E0AE /* CurrencySearchResult.h */,
+				2E12D1D1126300700031E0AE /* ExchangeRateSearchResult.h */,
+				2E12D1D2126300700031E0AE /* Brand.h */,
+				2E12D1D3126300700031E0AE /* Currency.h */,
+				2E12D1D4126300700031E0AE /* ExchangeRate.h */,
+				2E12D1D5126300700031E0AE /* BrandProfile.h */,
+				2E12D1D6126300700031E0AE /* BrandSearchResult.h */,
+			);
+			name = Brands;
+			sourceTree = "<group>";
+		};
+		2E12D1D7126300700031E0AE /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1D8126300700031E0AE /* AccountHistory.h */,
+				2E12D1D9126300700031E0AE /* AccountHistorySearchResult.h */,
+				2E12D1DA126300700031E0AE /* Accounts.h */,
+				2E12D1DB126300700031E0AE /* Account.h */,
+				2E12D1DC126300700031E0AE /* AccountPlan.h */,
+				2E12D1DD126300700031E0AE /* AccountRC.h */,
+				2E12D1DE126300700031E0AE /* AccountRCActivityLog.h */,
+				2E12D1DF126300700031E0AE /* AccountPlanSearchResult.h */,
+				2E12D1E0126300700031E0AE /* AccountRCSearchResult.h */,
+				2E12D1E1126300700031E0AE /* AccountRCSetting.h */,
+				2E12D1E2126300700031E0AE /* AccountSearchResult.h */,
+				2E12D1E3126300700031E0AE /* AccountDevice.h */,
+				2E12D1E4126300700031E0AE /* AccountDeviceSearchResult.h */,
+			);
+			name = Accounts;
+			sourceTree = "<group>";
+		};
+		2E12D1E5126300700031E0AE /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1E6126300700031E0AE /* User.h */,
+				2E12D1E7126300700031E0AE /* Profile.h */,
+				2E12D1E8126300700031E0AE /* UserQuestion.h */,
+				2E12D1E9126300700031E0AE /* UserQuestionSearchResult.h */,
+				2E12D1EA126300700031E0AE /* Users.h */,
+				2E12D1EB126300700031E0AE /* UserSearchResult.h */,
+				2E12D1EC126300700031E0AE /* SelfSignUp.h */,
+				2E12D1ED126300700031E0AE /* Image.h */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		2E12D1EE126300700031E0AE /* REST_XML_API */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1F4126300700031E0AE /* Transport */,
+				2E12D1EF126300700031E0AE /* Util */,
+			);
+			name = REST_XML_API;
+			sourceTree = "<group>";
+		};
+		2E12D1EF126300700031E0AE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1F0126300700031E0AE /* XmlParser.h */,
+				2E12D1F1126300700031E0AE /* TypeMapping.h */,
+				2E12D1F2126300700031E0AE /* GDataXMLNode.h */,
+				2E12D1F3126300700031E0AE /* Util.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2E12D1F4126300700031E0AE /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				2E12D1F5126300700031E0AE /* RestTransport3.h */,
+				2E12D1F6126300700031E0AE /* XmlHeaderHelper.h */,
+			);
+			name = Transport;
 			sourceTree = "<group>";
 		};
 		2E52092A121E4EEC009B3E24 /* Model */ = {
@@ -286,194 +468,6 @@
 				2EA393581221F2D200A5DF92 /* Label2.m */,
 			);
 			name = Model;
-			sourceTree = "<group>";
-		};
-		2ED912B11240944500C99880 /* Netmobo */ = {
-			isa = PBXGroup;
-			children = (
-				2ED913031240944500C99880 /* REST_XML_API */,
-				2ED912B21240944500C99880 /* FeeFactor_API */,
-			);
-			name = Netmobo;
-			sourceTree = "<group>";
-		};
-		2ED912B21240944500C99880 /* FeeFactor_API */ = {
-			isa = PBXGroup;
-			children = (
-				2ED913011240944500C99880 /* Config */,
-				2ED912F81240944500C99880 /* Users */,
-				2ED912EA1240944500C99880 /* Accounts */,
-				2ED912E11240944500C99880 /* Brands */,
-				2ED912D61240944500C99880 /* Cardpayments */,
-				2ED912CC1240944500C99880 /* Invoices */,
-				2ED912C61240944500C99880 /* Plans */,
-				2ED912B71240944500C99880 /* Services */,
-				2ED912B31240944500C99880 /* Transactions */,
-			);
-			name = FeeFactor_API;
-			sourceTree = "<group>";
-		};
-		2ED912B31240944500C99880 /* Transactions */ = {
-			isa = PBXGroup;
-			children = (
-				2ED912B41240944500C99880 /* Transactions.h */,
-				2ED912B51240944500C99880 /* TransactionDetailRecord.h */,
-				2ED912B61240944500C99880 /* TransactionDetailRecordSearchResult.h */,
-			);
-			name = Transactions;
-			sourceTree = "<group>";
-		};
-		2ED912B71240944500C99880 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				2ED912B81240944500C99880 /* BrandProduct.h */,
-				2ED912B91240944500C99880 /* BrandProductBaserate.h */,
-				2ED912BA1240944500C99880 /* BrandProductBaserateSearchResult.h */,
-				2ED912BB1240944500C99880 /* BrandProductSchedule.h */,
-				2ED912BC1240944500C99880 /* BrandProductScheduleSearchResult.h */,
-				2ED912BD1240944500C99880 /* BrandProductSearchResult.h */,
-				2ED912BE1240944500C99880 /* BrandService.h */,
-				2ED912BF1240944500C99880 /* BrandServices.h */,
-				2ED912C01240944500C99880 /* BrandServiceSearchResult.h */,
-				2ED912C11240944500C99880 /* ChargeTypeOperation.h */,
-				2ED912C21240944500C99880 /* BrandProductPrice.h */,
-				2ED912C31240944500C99880 /* BrandProductPlanPrice.h */,
-				2ED912C41240944500C99880 /* BrandProductPriceSearchResult.h */,
-				2ED912C51240944500C99880 /* BrandProductPlanPriceSearchResult.h */,
-			);
-			name = Services;
-			sourceTree = "<group>";
-		};
-		2ED912C61240944500C99880 /* Plans */ = {
-			isa = PBXGroup;
-			children = (
-				2ED912C71240944500C99880 /* Plan.h */,
-				2ED912C81240944500C99880 /* PlanRC.h */,
-				2ED912C91240944500C99880 /* PlanRCSearchResult.h */,
-				2ED912CA1240944500C99880 /* Plans.h */,
-				2ED912CB1240944500C99880 /* PlanSearchResult.h */,
-			);
-			name = Plans;
-			sourceTree = "<group>";
-		};
-		2ED912CC1240944500C99880 /* Invoices */ = {
-			isa = PBXGroup;
-			children = (
-				2ED912CD1240944500C99880 /* AccountInvoice.h */,
-				2ED912CE1240944500C99880 /* AccountInvoicePayment.h */,
-				2ED912CF1240944500C99880 /* AccountInvoicePaymentSearchResult.h */,
-				2ED912D01240944500C99880 /* AccountInvoiceSearchResult.h */,
-				2ED912D11240944500C99880 /* BillingRecord.h */,
-				2ED912D21240944500C99880 /* BillingRecordSearchResult.h */,
-				2ED912D31240944500C99880 /* Invoice.h */,
-				2ED912D41240944500C99880 /* UserPayment.h */,
-				2ED912D51240944500C99880 /* UserPaymentSearchResult.h */,
-			);
-			name = Invoices;
-			sourceTree = "<group>";
-		};
-		2ED912D61240944500C99880 /* Cardpayments */ = {
-			isa = PBXGroup;
-			children = (
-				2ED912D71240944500C99880 /* UserCard.h */,
-				2ED912D81240944500C99880 /* UserCardSearchResult.h */,
-				2ED912D91240944500C99880 /* UserBankAccount.h */,
-				2ED912DA1240944500C99880 /* UserBankAccountSearchResult.h */,
-				2ED912DB1240944500C99880 /* PaymentGateway.h */,
-				2ED912DC1240944500C99880 /* CardTransactionHistory.h */,
-				2ED912DD1240944500C99880 /* CardTransactionHistorySearchResult.h */,
-				2ED912DE1240944500C99880 /* CardPayments.h */,
-				2ED912DF1240944500C99880 /* UserPaymentAuthorization.h */,
-				2ED912E01240944500C99880 /* UserPaymentAuthorizationSearchResult.h */,
-			);
-			name = Cardpayments;
-			sourceTree = "<group>";
-		};
-		2ED912E11240944500C99880 /* Brands */ = {
-			isa = PBXGroup;
-			children = (
-				2ED912E21240944500C99880 /* Brands.h */,
-				2ED912E31240944500C99880 /* CurrencySearchResult.h */,
-				2ED912E41240944500C99880 /* ExchangeRateSearchResult.h */,
-				2ED912E51240944500C99880 /* Brand.h */,
-				2ED912E61240944500C99880 /* Currency.h */,
-				2ED912E71240944500C99880 /* ExchangeRate.h */,
-				2ED912E81240944500C99880 /* BrandProfile.h */,
-				2ED912E91240944500C99880 /* BrandSearchResult.h */,
-			);
-			name = Brands;
-			sourceTree = "<group>";
-		};
-		2ED912EA1240944500C99880 /* Accounts */ = {
-			isa = PBXGroup;
-			children = (
-				2ED912EB1240944500C99880 /* AccountHistory.h */,
-				2ED912EC1240944500C99880 /* AccountHistorySearchResult.h */,
-				2ED912ED1240944500C99880 /* Accounts.h */,
-				2ED912EE1240944500C99880 /* Account.h */,
-				2ED912EF1240944500C99880 /* AccountPlan.h */,
-				2ED912F01240944500C99880 /* AccountRC.h */,
-				2ED912F11240944500C99880 /* AccountRCActivityLog.h */,
-				2ED912F21240944500C99880 /* AccountPlanSearchResult.h */,
-				2ED912F31240944500C99880 /* AccountRCSearchResult.h */,
-				2ED912F41240944500C99880 /* AccountRCSetting.h */,
-				2ED912F51240944500C99880 /* AccountSearchResult.h */,
-				2ED912F61240944500C99880 /* AccountDevice.h */,
-				2ED912F71240944500C99880 /* AccountDeviceSearchResult.h */,
-			);
-			name = Accounts;
-			sourceTree = "<group>";
-		};
-		2ED912F81240944500C99880 /* Users */ = {
-			isa = PBXGroup;
-			children = (
-				2ED912F91240944500C99880 /* User.h */,
-				2ED912FA1240944500C99880 /* Profile.h */,
-				2ED912FB1240944500C99880 /* UserQuestion.h */,
-				2ED912FC1240944500C99880 /* UserQuestionSearchResult.h */,
-				2ED912FD1240944500C99880 /* Users.h */,
-				2ED912FE1240944500C99880 /* UserSearchResult.h */,
-				2ED912FF1240944500C99880 /* SelfSignUp.h */,
-				2ED913001240944500C99880 /* Image.h */,
-			);
-			name = Users;
-			sourceTree = "<group>";
-		};
-		2ED913011240944500C99880 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-				2ED913021240944500C99880 /* Config.h */,
-			);
-			name = Config;
-			sourceTree = "<group>";
-		};
-		2ED913031240944500C99880 /* REST_XML_API */ = {
-			isa = PBXGroup;
-			children = (
-				2ED913091240944500C99880 /* Transport */,
-				2ED913041240944500C99880 /* Util */,
-			);
-			name = REST_XML_API;
-			sourceTree = "<group>";
-		};
-		2ED913041240944500C99880 /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				2ED913051240944500C99880 /* XmlParser.h */,
-				2ED913061240944500C99880 /* TypeMapping.h */,
-				2ED913071240944500C99880 /* GDataXMLNode.h */,
-				2ED913081240944500C99880 /* Util.h */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		2ED913091240944500C99880 /* Transport */ = {
-			isa = PBXGroup;
-			children = (
-				2ED9130A1240944500C99880 /* RestTransport3.h */,
-				2ED9130B1240944500C99880 /* XmlHeaderHelper.h */,
-			);
-			name = Transport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

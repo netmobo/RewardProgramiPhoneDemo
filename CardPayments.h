@@ -3,7 +3,7 @@
 //  FeeFactor
 //
 //  Created by Netmobo on 25/05/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Netmobo. All rights reserved.
 //
 /*
 Copyright (c) 2010, NETMOBO LLC
@@ -28,6 +28,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 #import "UserBankAccountSearchResult.h"
 #import "UserPaymentAuthorization.h"
 #import "UserPaymentAuthorizationSearchResult.h"
+#import "PaymentGateway.h"
+#import "PaymentGatewaySearchResult.h"
 
 @interface CardPayments : NSObject {
     
@@ -45,7 +47,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 -(long)rechargeAccountViaCC:(NSString *)paymentGatewayID withSerial:(NSNumber *)serialNumber andLoad:(NSNumber *)load anFirstName:(NSString *)firstName andLastName:(NSString *)lastName andEmail:(NSString *)email andPhone:(NSString *)phoneNumber  andAddr1:(NSString *)address1 
 				   andAddr2:(NSString *)address2 andCity:(NSString *)city andState:(NSString *)state andZip:(NSString *)zip andCountry:(NSString *)country andCardNum:(NSString *)cardNumber 
 				andExpMonth:(NSString *)expirationMonth andExpYear:(NSString *)expirationYear andCardType:(NSString *)cardType andCvv:(NSString *)cvv andDescripion:(NSString *)description 
-	   andMerchatDescriptor:(NSString *)merchantDescriptor andMerchatPhone:(NSString *)merchatPhone andComment:(NSString *)comment andReason:(NSString *)reason;
+	  andMerchantDescriptor:(NSString *)merchantDescriptor andMerchantPhone:(NSString *)merchantPhone andComment:(NSString *)comment andReason:(NSString *)reason;
 -(long)getCardTransactionHistoriesCount:(NSNumber *)serialNumber withCondition:(NSString *)where;
 -(int)updateUserBankAccount:(UserBankAccount *)bankAccount andParams:(NSString *)reason;
 -(int)reverseCardTransaction:(NSNumber *)paymentGatewayID withSource:(NSNumber *) serialNumber withHistoryID:(NSNumber *) cardHistoryID andReason:(NSString *)reason;
@@ -56,7 +58,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 -(int)deleteUserBankAccount:(NSNumber *)bankAccountID andReason:(NSString *)reason;
 -(NSString *)getUserBankAccountProperty:(NSString *)propertyName andAccountID:(NSNumber *)bankAccountID;
 -(CardTransactionHistory *)getCardTransactionHistory:(NSNumber *)serialNumber andCardHistoryID:(NSNumber *)cardHistoryID;
--(int)deleteUserCard:(NSNumber *)cardID;
+-(int)deleteUserCard:(NSNumber *)cardID andReason:(NSString *)reason;
 -(NSString *)getUserCardProperty:(NSString *)propertyName andAccountID:(NSNumber *)cardID;
 -(long)getUserBankAccountsCount:(NSString *)whereCondition;
 -(UserCardSearchResult *)getUserCards:(NSString *)where andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber;
@@ -77,5 +79,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 -(int)removeUserCardFromPaymentAuthorization:(NSNumber *)paymentAuthorizationID andCardID:(NSNumber *)cardID andReason:(NSString *)reason;
 -(int)addAccountToPaymentAuthorization:(NSNumber *)paymentAuthorizationID andSerialNumber:(NSNumber *)serialNumber andReason:(NSString *)reason;
 -(int)removeAccountFromPaymentAuthorization:(NSNumber *)paymentAuthorizationID andSerialNumber:(NSNumber *)serialNumber andReason:(NSString *)reason;
+
+-(PaymentGateway *)getBrandPaymentGateway:(NSNumber *)paymentGatewayID;
+-(PaymentGatewaySearchResult *)getBrandPaymentGateways:(NSString *)where andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber;
+-(long)getBrandPaymentGatewaysCount:(NSString *)whereCondition;
 
 @end

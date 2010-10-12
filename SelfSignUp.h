@@ -3,7 +3,7 @@
 //  FeeFactor
 //
 //  Created by Netmobo on 15/07/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Netmobo. All rights reserved.
 //
 /*
 Copyright (c) 2010, NETMOBO LLC
@@ -36,7 +36,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 -(User *)validateUserQuestion:(NSNumber *)questionID andAnswer:(NSString *)answer;
 -(UserQuestionSearchResult *)getUserQuestions:(NSNumber *)userID andWhere:(NSString *)where andSort:(NSString *)sort andPageItems:(NSNumber *)pageItems andPageNumber:(NSNumber *)pageNumber;
--(int)getUserQuestionsCount:(NSNumber *)userId withCondition:(NSString *)condition;
+-(long)getUserQuestionsCount:(NSNumber *)userId withCondition:(NSString *)condition;
 -(long)insertUser:(User *)user andParams:(NSString *)reason;
 
 @end

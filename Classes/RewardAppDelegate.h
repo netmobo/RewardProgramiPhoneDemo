@@ -14,9 +14,6 @@
 @class ClaimRewardsViewController;
 @class EarnPointsViewController;
 
-// FeeFactor
-@class RestTransport3;
-@class XmlParser;
 
 @interface RewardAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
@@ -25,10 +22,6 @@
 	LoginViewController *loginViewController;
 	ClaimRewardsViewController *claimRewardsViewController;
 	EarnPointsViewController *earnPointsViewController;
-	
-	// FeeFactor
-	RestTransport3 *transport3;
-    XmlParser *xmlParser;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
@@ -37,10 +30,6 @@
 @property (nonatomic, retain) IBOutlet LoginViewController *loginViewController;
 @property (nonatomic, retain) IBOutlet ClaimRewardsViewController *claimRewardsViewController;
 @property (nonatomic, retain) IBOutlet EarnPointsViewController *earnPointsViewController;
-
-// FeeFactor
-@property (nonatomic, retain) RestTransport3 *transport3;
-@property (nonatomic, retain) XmlParser *xmlParser;
 
 - (void) goPointHistory;
 - (void) goLogout;

@@ -18,9 +18,8 @@
 #import	"PointsHistory.h"
 
 // FeeFactor
-#import "RestTransport3.h"
-#import "XmlParser.h"
-#import "GDataXMLNode.h"
+#import "NetmoboFeefactorModel.h"
+
 #import "Account.h"
 #import "Accounts.h"
 #import "BrandServices.h"
@@ -37,18 +36,12 @@
 @synthesize claimRewardsViewController;
 @synthesize earnPointsViewController;
 
-// FeeFactor
-@synthesize transport3;
-@synthesize xmlParser;
-
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-	transport3 = [[RestTransport3 alloc] init];
-    xmlParser = [[XmlParser alloc] init];
 
     // Add the view controller's view to the window and display.
     [window addSubview:viewController.view];
@@ -74,27 +67,29 @@
 }
 
 - (NSString *) loginWithUser:(NSString *) aUser andPassword:(NSString *) aPassword {
+	NetmoboFeefactorModel *netmoboFeefactorModel = [NetmoboFeefactorModel sharedModel];
 	Model *model = [Model sharedModel];
 	
-	[transport3.config setSchema:@"http"];
-	[transport3.config setHost:@"70.42.72.151"];
-	[transport3.config setPort:@"12345"]; 
-	[transport3.config setServiceUrl:@"/feefactor/rest"];
-	[transport3.config setUserName:[NSString stringWithFormat:@"%@|%@", [model brandID], aUser] ];
-	[transport3.config setPassWord:aPassword];
-	[transport3.config setEncode:@"UTF-8"];
-	[transport3.config setRealm:@"feefactor"];
+	[netmoboFeefactorModel setSchema:@"http"];
+	[netmoboFeefactorModel setHost:@"70.42.72.151"];
+	[netmoboFeefactorModel setPort:@"12345"]; 
+	[netmoboFeefactorModel setServiceUrl:@"/feefactor/rest"];
+	[netmoboFeefactorModel setUserName:[NSString stringWithFormat:@"%@|%@", [model brandID], aUser] ];
+	[netmoboFeefactorModel setPassWord:aPassword];
+	[netmoboFeefactorModel setEncode:@"UTF-8"];
+	[netmoboFeefactorModel setRealm:@"feefactor"];
 	
 	Accounts *accountsInterface = [[Accounts alloc] init];
 	NSArray *accounts = [[accountsInterface getAccounts:@"" andSort:@"" andPageItems:[NSNumber numberWithInt:1] andPageNumber:[NSNumber numberWithInt:1]] accountResults];
 
-	if ([transport3.config.errorCode isEqualToString:@"none"]) {
+	if ([[netmoboFeefactorModel errorCode] isEqualToString:@"none"]) {
 		Account *account = [accounts objectAtIndex:0];
 		[model setUserID:[account.userID stringValue]];
 		[model setSerialNumber:[account.serialNumber stringValue]];	
 		[model setAccountID:account.accountID];
 	}
-	return transport3.config.errorCode;
+	[accountsInterface release];
+	return [netmoboFeefactorModel errorCode];
 }
 
 - (NSMutableArray *) getPointHistory {
@@ -153,7 +148,7 @@
 		[tempArray addObject:aPointsHistory];
 		[aPointsHistory release];
 	}
-	
+	[accountsInterface release];
 	return [tempArray autorelease];
 }
 
@@ -162,12 +157,12 @@
 					  serviceName:(NSString *)aServiceName 
 					  productCode:(NSString *)aProductCode 
 							 item:(NSString *)aItem {
-	Transactions *transactionInterface = [[Transactions alloc] init];
+	Transactions *transactionInterface = [[[Transactions alloc] init] autorelease];
 	[transactionInterface chargeAccount:aBrandID accountID:aAccountID serviceName:aServiceName productCode:aProductCode quantity:[NSNumber numberWithInt:1]  reason:aItem];
 }
 
 - (NSString *) getCurrentPoints {
-	Accounts *accountsInterface = [[Accounts alloc] init];
+	Accounts *accountsInterface = [[[Accounts alloc] init] autorelease];
 	NSArray *accounts = [[accountsInterface getAccounts:@"" andSort:@"" andPageItems:[NSNumber numberWithInt:1] andPageNumber:[NSNumber numberWithInt:1]] accountResults];
 	Account *account = [accounts objectAtIndex:0];
 	float tempNum = [account.balance floatValue] - [account.creditLimit floatValue];
@@ -179,7 +174,7 @@
 	Model *model = [Model sharedModel];
 	NSMutableArray *tempArray = [[NSMutableArray alloc] init];
 	
-	BrandServices *brandserviceInterface = [[BrandServices alloc] init];
+	BrandServices *brandserviceInterface = [[[BrandServices alloc] init] autorelease];
 	NSArray *brandProducts = [[brandserviceInterface getBrandProducts:[NSNumber numberWithInt:[[model serviceID] intValue]] andWhere:@"PRODUCTCODE like 'POINTS-%'" andSort:@"" andPageItems:[NSNumber numberWithInt:0] andPageNumber:[NSNumber numberWithInt:0]] brandProducts];
 	BrandService *brandService = [brandserviceInterface getBrandService:[NSNumber numberWithInt:[[model serviceID] intValue]]];
 	NSString *aServiceName = [brandService serviceName];
@@ -206,7 +201,7 @@
 	Model *model = [Model sharedModel];
 	NSMutableArray *tempArray = [[NSMutableArray alloc] init];
 	
-	BrandServices *brandserviceInterface = [[BrandServices alloc] init];
+	BrandServices *brandserviceInterface = [[[BrandServices alloc] init] autorelease];
 	NSArray *brandProducts = [[brandserviceInterface getBrandProducts:[NSNumber numberWithInt:[[model serviceID] intValue]] andWhere:@"PRODUCTCODE not like 'POINTS-%'" andSort:@"" andPageItems:[NSNumber numberWithInt:0] andPageNumber:[NSNumber numberWithInt:0]] brandProducts];
 	BrandService *brandService = [brandserviceInterface getBrandService:[NSNumber numberWithInt:[[model serviceID] intValue]]];
 	NSString *aServiceName = [brandService serviceName];
@@ -343,8 +338,6 @@
 
 
 - (void)dealloc {
-	[transport3 release];
-	[xmlParser release];
 	[earnPointsViewController release];
 	[claimRewardsViewController release];
 	[loginViewController release];
