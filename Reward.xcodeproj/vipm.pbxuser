@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* RewardAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {858, 651}}";
-			sepNavSelRange = "{1164, 0}";
-			sepNavVisRange = "{0, 1713}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 780}}";
+			sepNavSelRange = "{1629, 0}";
+			sepNavVisRange = "{0, 2946}";
 		};
 	};
 	1D3623250D0F684500981E51 /* RewardAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2000, 4771}}";
-			sepNavSelRange = "{2915, 0}";
-			sepNavVisRange = "{1847, 2296}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 5005}}";
+			sepNavSelRange = "{1629, 0}";
+			sepNavVisRange = "{0, 2425}";
 			sepNavWindowFrame = "{{743, 63}, {537, 875}}";
 		};
 	};
@@ -23,16 +23,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* RewardViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {859, 633}}";
-			sepNavSelRange = "{227, 0}";
-			sepNavVisRange = "{0, 235}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1625, 0}";
+			sepNavVisRange = "{0, 1718}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* RewardViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {858, 1027}}";
-			sepNavSelRange = "{1658, 0}";
-			sepNavVisRange = "{0, 1261}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 1144}}";
+			sepNavSelRange = "{1625, 0}";
+			sepNavVisRange = "{0, 2376}";
 			sepNavWindowFrame = "{{357, 84}, {923, 787}}";
 		};
 	};
@@ -133,12 +133,14 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308478030;
-			PBXWorkspaceStateSaveDate = 308478030;
+			PBXPerProjectTemplateStateSaveDate = 308635034;
+			PBXWorkspaceStateSaveDate = 308635034;
 		};
 		perUserProjectItems = {
-			2E12C7151262CB9E0031E0AE = 2E12C7151262CB9E0031E0AE /* PBXTextBookmark */;
 			2E12CA471262E04B0031E0AE = 2E12CA471262E04B0031E0AE /* PBXTextBookmark */;
+			2E12D203126301E10031E0AE = 2E12D203126301E10031E0AE /* PBXTextBookmark */;
+			2E51AC90126565A200BC28F3 /* PBXTextBookmark */ = 2E51AC90126565A200BC28F3 /* PBXTextBookmark */;
+			2E51AC91126565A200BC28F3 /* PBXTextBookmark */ = 2E51AC91126565A200BC28F3 /* PBXTextBookmark */;
 			2E5937AD1224A54D00521F0D = 2E5937AD1224A54D00521F0D /* PBXTextBookmark */;
 			2E5937AF1224A54D00521F0D = 2E5937AF1224A54D00521F0D /* PBXTextBookmark */;
 			2E5937B11224A54D00521F0D = 2E5937B11224A54D00521F0D /* PBXTextBookmark */;
@@ -173,56 +175,76 @@
 		userBuildSettings = {
 		};
 	};
-	2E12C7151262CB9E0031E0AE /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* RewardAppDelegate.m */;
-		name = "RewardAppDelegate.m: 85";
-		rLen = 0;
-		rLoc = 2915;
-		rType = 0;
-		vrLen = 2296;
-		vrLoc = 1847;
-	};
 	2E12CA471262E04B0031E0AE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* RewardAppDelegate.m */;
 		name = "RewardAppDelegate.m: 85";
 		rLen = 0;
-		rLoc = 2915;
+		rLoc = 4405;
+		rType = 0;
+		vrLen = 2296;
+		vrLoc = 1847;
+	};
+	2E12D203126301E10031E0AE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RewardAppDelegate.m */;
+		name = "RewardAppDelegate.m: 85";
+		rLen = 0;
+		rLoc = 4405;
 		rType = 0;
 		vrLen = 2296;
 		vrLoc = 1847;
 	};
 	2E308B771224C6FF00645431 /* ClaimRewardsTableCell.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {478, 747}}";
-			sepNavSelRange = "{0, 139}";
-			sepNavVisRange = "{0, 508}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1622, 0}";
+			sepNavVisRange = "{0, 1991}";
 			sepNavWindowFrame = "{{61, 16}, {537, 875}}";
 		};
 	};
 	2E308B781224C6FF00645431 /* ClaimRewardsTableCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {726, 747}}";
-			sepNavSelRange = "{519, 0}";
-			sepNavVisRange = "{0, 623}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1622, 0}";
+			sepNavVisRange = "{0, 2106}";
 			sepNavWindowFrame = "{{686, 63}, {537, 875}}";
 		};
 	};
 	2E308CBB1224F5D800645431 /* EarnPointsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1027, 633}}";
-			sepNavSelRange = "{839, 0}";
-			sepNavVisRange = "{0, 877}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1625, 0}";
+			sepNavVisRange = "{0, 2360}";
 		};
 	};
 	2E308CBC1224F5D800645431 /* EarnPointsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1587, 2912}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1843}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 3081}}";
+			sepNavSelRange = "{1625, 0}";
+			sepNavVisRange = "{0, 2869}";
 			sepNavWindowFrame = "{{743, 63}, {537, 875}}";
 		};
+	};
+	2E51AC90126565A200BC28F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RewardAppDelegate.m */;
+		name = "RewardAppDelegate.m: 85";
+		rLen = 0;
+		rLoc = 4405;
+		rType = 0;
+		vrLen = 2296;
+		vrLoc = 1847;
+	};
+	2E51AC91126565A200BC28F3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2E8595A712273E68001B5087 /* Model.h */;
+		name = "Model.h: 41";
+		rLen = 0;
+		rLoc = 2436;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
 	};
 	2E520904121E4DC0009B3E24 /* Reward */ = {
 		isa = PBXExecutable;
@@ -285,46 +307,46 @@
 	};
 	2E520A09121E66CF009B3E24 /* PointsHistory.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {937, 741}}";
-			sepNavSelRange = "{176, 0}";
-			sepNavVisRange = "{0, 537}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1618, 0}";
+			sepNavVisRange = "{0, 2020}";
 		};
 	};
 	2E520A0A121E66CF009B3E24 /* PointsHistory.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {858, 651}}";
-			sepNavSelRange = "{396, 0}";
-			sepNavVisRange = "{0, 618}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 663}}";
+			sepNavSelRange = "{1618, 0}";
+			sepNavVisRange = "{0, 2101}";
 			sepNavWindowFrame = "{{734, 42}, {537, 875}}";
 		};
 	};
 	2E59377F12249C9200521F0D /* ClaimRewardsViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1041, 633}}";
-			sepNavSelRange = "{774, 73}";
-			sepNavVisRange = "{0, 885}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1631, 0}";
+			sepNavVisRange = "{0, 2368}";
 		};
 	};
 	2E59378012249C9200521F0D /* ClaimRewardsViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1587, 3029}}";
-			sepNavSelRange = "{3906, 0}";
-			sepNavVisRange = "{230, 1969}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 3185}}";
+			sepNavSelRange = "{1631, 0}";
+			sepNavVisRange = "{0, 2875}";
 			sepNavWindowFrame = "{{743, 63}, {537, 875}}";
 		};
 	};
 	2E5937A01224A29D00521F0D /* ClaimRewards.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {937, 741}}";
-			sepNavSelRange = "{663, 0}";
-			sepNavVisRange = "{0, 663}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1617, 0}";
+			sepNavVisRange = "{0, 2146}";
 		};
 	};
 	2E5937A11224A29D00521F0D /* ClaimRewards.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {478, 747}}";
-			sepNavSelRange = "{721, 0}";
-			sepNavVisRange = "{0, 753}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 715}}";
+			sepNavSelRange = "{1617, 0}";
+			sepNavVisRange = "{0, 2228}";
 			sepNavWindowFrame = "{{757, 42}, {537, 875}}";
 		};
 	};
@@ -384,7 +406,7 @@
 		fRef = 2E9717C0122C83F100632854 /* PointsHistoryViewController.h */;
 		name = "PointsHistoryViewController.h: 12";
 		rLen = 42;
-		rLoc = 285;
+		rLoc = 1775;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 0;
@@ -394,9 +416,9 @@
 		fRef = 2E520A0A121E66CF009B3E24 /* PointsHistory.m */;
 		name = "PointsHistory.m: 22";
 		rLen = 0;
-		rLoc = 396;
+		rLoc = 1886;
 		rType = 0;
-		vrLen = 618;
+		vrLen = 611;
 		vrLoc = 0;
 	};
 	2E7FC8451230EBEE00129CCA /* PBXTextBookmark */ = {
@@ -404,9 +426,9 @@
 		fRef = 2EA393071221E83800A5DF92 /* PointsHistoryTableCell.m */;
 		name = "PointsHistoryTableCell.m: 15";
 		rLen = 0;
-		rLoc = 289;
+		rLoc = 1779;
 		rType = 0;
-		vrLen = 702;
+		vrLen = 695;
 		vrLoc = 0;
 	};
 	2E810983125EABF200298C7D /* PBXTextBookmark */ = {
@@ -414,23 +436,23 @@
 		fRef = 1D3623240D0F684500981E51 /* RewardAppDelegate.h */;
 		name = "RewardAppDelegate.h: 32";
 		rLen = 0;
-		rLoc = 1164;
+		rLoc = 2654;
 		rType = 0;
 		vrLen = 1713;
 		vrLoc = 0;
 	};
 	2E8595A712273E68001B5087 /* Model.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {859, 633}}";
-			sepNavSelRange = "{953, 0}";
-			sepNavVisRange = "{0, 953}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 689}}";
+			sepNavSelRange = "{1603, 0}";
+			sepNavVisRange = "{0, 2431}";
 		};
 	};
 	2E8595A812273E68001B5087 /* Model.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {859, 1248}}";
-			sepNavSelRange = "{450, 0}";
-			sepNavVisRange = "{0, 807}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 1417}}";
+			sepNavSelRange = "{1603, 0}";
+			sepNavVisRange = "{0, 2120}";
 			sepNavWindowFrame = "{{742, 49}, {537, 875}}";
 		};
 	};
@@ -449,7 +471,7 @@
 		fRef = 2E9717C1122C83F100632854 /* PointsHistoryViewController.m */;
 		name = "PointsHistoryViewController.m: 53";
 		rLen = 350;
-		rLoc = 1858;
+		rLoc = 3348;
 		rType = 0;
 		vrLen = 1933;
 		vrLoc = 679;
@@ -471,9 +493,9 @@
 		fRef = 2E8595A712273E68001B5087 /* Model.h */;
 		name = "Model.h: 41";
 		rLen = 0;
-		rLoc = 953;
+		rLoc = 2436;
 		rType = 0;
-		vrLen = 953;
+		vrLen = 946;
 		vrLoc = 0;
 	};
 	2E8D51A6122E43F10077F7D2 /* PBXTextBookmark */ = {
@@ -481,23 +503,23 @@
 		fRef = 2E8595A812273E68001B5087 /* Model.m */;
 		name = "Model.m: 28";
 		rLen = 0;
-		rLoc = 450;
+		rLoc = 1940;
 		rType = 0;
 		vrLen = 807;
 		vrLoc = 0;
 	};
 	2E9717C0122C83F100632854 /* PointsHistoryViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {901, 651}}";
-			sepNavSelRange = "{285, 42}";
-			sepNavVisRange = "{0, 840}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1628, 0}";
+			sepNavVisRange = "{0, 2330}";
 		};
 	};
 	2E9717C1122C83F100632854 /* PointsHistoryViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1587, 2340}}";
-			sepNavSelRange = "{1858, 350}";
-			sepNavVisRange = "{679, 1933}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 2548}}";
+			sepNavSelRange = "{1628, 0}";
+			sepNavVisRange = "{0, 2779}";
 			sepNavWindowFrame = "{{742, 59}, {537, 875}}";
 		};
 	};
@@ -518,9 +540,9 @@
 		fRef = 2E5937A11224A29D00521F0D /* ClaimRewards.m */;
 		name = "ClaimRewards.m: 12";
 		rLen = 0;
-		rLoc = 191;
+		rLoc = 1681;
 		rType = 0;
-		vrLen = 753;
+		vrLen = 746;
 		vrLoc = 0;
 	};
 	2E9A52C312349AF5007DC169 /* PBXTextBookmark */ = {
@@ -528,7 +550,7 @@
 		fRef = 28D7ACF70DDB3853001CB0EB /* RewardViewController.m */;
 		name = "RewardViewController.m: 76";
 		rLen = 0;
-		rLoc = 1658;
+		rLoc = 3148;
 		rType = 0;
 		vrLen = 1261;
 		vrLoc = 0;
@@ -538,9 +560,9 @@
 		fRef = 2E520A09121E66CF009B3E24 /* PointsHistory.h */;
 		name = "PointsHistory.h: 12";
 		rLen = 0;
-		rLoc = 176;
+		rLoc = 1666;
 		rType = 0;
-		vrLen = 537;
+		vrLen = 530;
 		vrLoc = 0;
 	};
 	2E9AFCFF122DC8C4003A7DFE /* PBXTextBookmark */ = {
@@ -548,9 +570,9 @@
 		fRef = 2E5937A01224A29D00521F0D /* ClaimRewards.h */;
 		name = "ClaimRewards.h: 30";
 		rLen = 0;
-		rLoc = 663;
+		rLoc = 2146;
 		rType = 0;
-		vrLen = 663;
+		vrLen = 656;
 		vrLoc = 0;
 	};
 	2E9AFD00122DC8C4003A7DFE /* PBXTextBookmark */ = {
@@ -558,19 +580,19 @@
 		fRef = 2E308B771224C6FF00645431 /* ClaimRewardsTableCell.h */;
 		name = "ClaimRewardsTableCell.h: 22";
 		rLen = 0;
-		rLoc = 439;
+		rLoc = 1929;
 		rType = 0;
-		vrLen = 508;
+		vrLen = 501;
 		vrLoc = 0;
 	};
 	2E9AFD01122DC8C4003A7DFE /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 2EA393571221F2D200A5DF92 /* Label2.h */;
 		name = "Label2.h: 1";
-		rLen = 167;
+		rLen = 1657;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 467;
+		vrLen = 460;
 		vrLoc = 0;
 	};
 	2E9AFD02122DC8C4003A7DFE /* PBXTextBookmark */ = {
@@ -588,9 +610,9 @@
 		fRef = 28D7ACF60DDB3853001CB0EB /* RewardViewController.h */;
 		name = "RewardViewController.h: 15";
 		rLen = 0;
-		rLoc = 227;
+		rLoc = 1717;
 		rType = 0;
-		vrLen = 235;
+		vrLen = 228;
 		vrLoc = 0;
 	};
 	2E9AFD3C122DD0B5003A7DFE /* PBXTextBookmark */ = {
@@ -598,9 +620,9 @@
 		fRef = 2E59377F12249C9200521F0D /* ClaimRewardsViewController.h */;
 		name = "ClaimRewardsViewController.h: 27";
 		rLen = 73;
-		rLoc = 774;
+		rLoc = 2264;
 		rType = 0;
-		vrLen = 885;
+		vrLen = 878;
 		vrLoc = 0;
 	};
 	2E9AFD3D122DD0B5003A7DFE /* PBXTextBookmark */ = {
@@ -608,9 +630,9 @@
 		fRef = 2E308CBB1224F5D800645431 /* EarnPointsViewController.h */;
 		name = "EarnPointsViewController.h: 27";
 		rLen = 0;
-		rLoc = 839;
+		rLoc = 2329;
 		rType = 0;
-		vrLen = 877;
+		vrLen = 870;
 		vrLoc = 0;
 	};
 	2E9AFD4A122DE9A6003A7DFE /* PBXTextBookmark */ = {
@@ -618,9 +640,9 @@
 		fRef = 2E520911121E4E05009B3E24 /* LoginViewController.h */;
 		name = "LoginViewController.h: 22";
 		rLen = 0;
-		rLoc = 448;
+		rLoc = 445;
 		rType = 0;
-		vrLen = 452;
+		vrLen = 445;
 		vrLoc = 0;
 	};
 	2E9EDA211227B18E009E3279 /* Debugentitlements.plist */ = {
@@ -628,31 +650,31 @@
 	};
 	2EA393061221E83800A5DF92 /* PointsHistoryTableCell.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {858, 651}}";
-			sepNavSelRange = "{414, 0}";
-			sepNavVisRange = "{0, 608}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1627, 0}";
+			sepNavVisRange = "{0, 2091}";
 		};
 	};
 	2EA393071221E83800A5DF92 /* PointsHistoryTableCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {858, 651}}";
-			sepNavSelRange = "{289, 0}";
-			sepNavVisRange = "{0, 702}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1627, 0}";
+			sepNavVisRange = "{0, 2185}";
 			sepNavWindowFrame = "{{799, 20}, {537, 875}}";
 		};
 	};
 	2EA393571221F2D200A5DF92 /* Label2.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {937, 741}}";
-			sepNavSelRange = "{0, 167}";
-			sepNavVisRange = "{0, 467}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 651}}";
+			sepNavSelRange = "{1650, 0}";
+			sepNavVisRange = "{0, 1950}";
 		};
 	};
 	2EA393581221F2D200A5DF92 /* Label2.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1041, 871}}";
-			sepNavSelRange = "{992, 0}";
-			sepNavVisRange = "{188, 1412}";
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 1027}}";
+			sepNavSelRange = "{1650, 0}";
+			sepNavVisRange = "{0, 2236}";
 			sepNavWindowFrame = "{{678, 43}, {537, 875}}";
 		};
 	};
@@ -661,7 +683,7 @@
 		fRef = 2E59378012249C9200521F0D /* ClaimRewardsViewController.m */;
 		name = "ClaimRewardsViewController.m: 129";
 		rLen = 0;
-		rLoc = 3906;
+		rLoc = 5396;
 		rType = 0;
 		vrLen = 1969;
 		vrLoc = 230;
@@ -693,9 +715,9 @@
 		fRef = 2EA393061221E83800A5DF92 /* PointsHistoryTableCell.h */;
 		name = "PointsHistoryTableCell.h: 20";
 		rLen = 0;
-		rLoc = 414;
+		rLoc = 1904;
 		rType = 0;
-		vrLen = 608;
+		vrLen = 601;
 		vrLoc = 0;
 	};
 	2EE8CAD7122774B900C5027E /* PBXTextBookmark */ = {
@@ -703,9 +725,9 @@
 		fRef = 2E308B781224C6FF00645431 /* ClaimRewardsTableCell.m */;
 		name = "ClaimRewardsTableCell.m: 20";
 		rLen = 0;
-		rLoc = 519;
+		rLoc = 2009;
 		rType = 0;
-		vrLen = 623;
+		vrLen = 616;
 		vrLoc = 0;
 	};
 }

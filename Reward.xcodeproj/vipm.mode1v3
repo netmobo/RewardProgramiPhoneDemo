@@ -266,14 +266,16 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
-								<string>080E96DDFE201D6D7F000001</string>
-								<string>19C28FACFE9D520D11CA2CBB</string>
+								<string>2E52092A121E4EEC009B3E24</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>3</integer>
+									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -297,7 +299,7 @@
 							<real>245</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>81 111 1186 729 0 0 1280 938 </string>
+						<string>8 209 1186 729 0 0 1280 938 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -313,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RewardAppDelegate.m</string>
+								<string>Model.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -321,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RewardAppDelegate.m</string>
+										<string>Model.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2E12CA471262E04B0031E0AE</string>
+										<string>2E51AC91126565A200BC28F3</string>
 										<key>history</key>
 										<array>
 											<string>2E5937AD1224A54D00521F0D</string>
@@ -345,7 +347,6 @@
 											<string>2E9AFD3D122DD0B5003A7DFE</string>
 											<string>2E9AFD4A122DE9A6003A7DFE</string>
 											<string>2E8D4E83122E34760077F7D2</string>
-											<string>2E8D51A5122E43F10077F7D2</string>
 											<string>2E8D51A6122E43F10077F7D2</string>
 											<string>2E7FC8451230EBEE00129CCA</string>
 											<string>2EE365B01230F0C600B2B772</string>
@@ -357,7 +358,8 @@
 											<string>2EB187CC1255515A00882F3B</string>
 											<string>2EB187CD1255515A00882F3B</string>
 											<string>2E810983125EABF200298C7D</string>
-											<string>2E12C7151262CB9E0031E0AE</string>
+											<string>2E51AC90126565A200BC28F3</string>
+											<string>2E8D51A5122E43F10077F7D2</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -371,7 +373,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {919, 683}}</string>
 								<key>RubberWindowFrame</key>
-								<string>81 111 1186 729 0 0 1280 938 </string>
+								<string>8 209 1186 729 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -391,7 +393,7 @@
 								<key>Frame</key>
 								<string>{{0, 688}, {919, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>81 111 1186 729 0 0 1280 938 </string>
+								<string>8 209 1186 729 0 0 1280 938 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -415,9 +417,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2E12CA481262E04B0031E0AE</string>
+				<string>2E51AC92126565A200BC28F3</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2E12CA491262E04B0031E0AE</string>
+				<string>2E51AC93126565A200BC28F3</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -555,13 +557,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>2E520922121E4E4B009B3E24</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/AurisoftApps/Netmobo/Demos/02Reward/Reward/Reward.xcodeproj</string>
+		<string>/AurisoftApps/Netmobo/Demos/02Reward/RewardProgramiPhoneDemo/Reward.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>81 111 1186 729 0 0 1280 938 </string>
+	<string>8 209 1186 729 0 0 1280 938 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -638,7 +638,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>2E520922121E4E4B009B3E24</string>
-				<string>2E12CA4A1262E04B0031E0AE</string>
+				<string>2E51AC94126565A200BC28F3</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -760,13 +760,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>2E12CA4B1262E04B0031E0AE</string>
+				<string>2E12D207126301E10031E0AE</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>2E12CA4C1262E04B0031E0AE</string>
-				<string>2E12CA4D1262E04B0031E0AE</string>
-				<string>2E12CA4E1262E04B0031E0AE</string>
-				<string>2E12CA4F1262E04B0031E0AE</string>
-				<string>2E12CA501262E04B0031E0AE</string>
+				<string>2E12D208126301E10031E0AE</string>
+				<string>2E12D209126301E10031E0AE</string>
+				<string>2E12D20A126301E10031E0AE</string>
+				<string>2E12D20B126301E10031E0AE</string>
+				<string>2E12D20C126301E10031E0AE</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -885,8 +885,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -922,7 +920,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>2E12CA511262E04B0031E0AE</string>
+				<string>2E12D20D126301E10031E0AE</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -932,7 +930,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

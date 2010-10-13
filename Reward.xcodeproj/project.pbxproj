@@ -218,7 +218,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2E12D19C126300700031E0AE /* Netmobo V1 */,
+				2E12D19C126300700031E0AE /* Feefactor Libe */,
 				2E52092A121E4EEC009B3E24 /* Model */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -270,14 +270,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E12D19C126300700031E0AE /* Netmobo V1 */ = {
+		2E12D19C126300700031E0AE /* Feefactor Libe */ = {
 			isa = PBXGroup;
 			children = (
 				2E12D1EE126300700031E0AE /* REST_XML_API */,
 				2E12D19E126300700031E0AE /* FeeFactor_API */,
 				2E12D19D126300700031E0AE /* NetmoboFeefactorModel.h */,
 			);
-			name = "Netmobo V1";
+			name = "Feefactor Libe";
 			sourceTree = "<group>";
 		};
 		2E12D19E126300700031E0AE /* FeeFactor_API */ = {

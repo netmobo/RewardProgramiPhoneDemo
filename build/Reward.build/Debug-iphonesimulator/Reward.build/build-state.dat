@@ -15759,8 +15759,8 @@ s357
 i<UIKit/UIKit.h>
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C6BAA260000000000000132
-t1282124326
+c000000004C7F63040000000000000132
+t1283416836
 s306
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
@@ -15832,6 +15832,564 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0
 c000000004BFDF9F400000000000053F9
 t1274935796
 s21497
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Account.h
+c000000004CB5340B00000000000011AC
+t1286943755
+s4524
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/AccountHistory.h
+c000000004CB5340B000000000000098C
+t1286943755
+s2444
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/AccountHistorySearchResult.h
+c000000004CB534100000000000000736
+t1286943760
+s1846
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/AccountPlan.h
+c000000004CB5340B00000000000008EA
+t1286943755
+s2282
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/AccountPlanSearchResult.h
+c000000004CB53410000000000000071C
+t1286943760
+s1820
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/AccountRC.h
+c000000004CB534100000000000000B56
+t1286943760
+s2902
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/AccountRCSearchResult.h
+c000000004CB534100000000000000711
+t1286943760
+s1809
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/AccountSearchResult.h
+c000000004CB534100000000000000715
+t1286943760
+s1813
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Accounts.h
+c000000004CB53410000000000000116B
+t1286943760
+s4459
+i<Foundation/Foundation.h>
+i"Account.h"
+i"AccountHistory.h"
+i"AccountSearchResult.h"
+i"AccountRC.h"
+i"AccountRCSearchResult.h"
+i"AccountPlanSearchResult.h"
+i"AccountPlan.h"
+i"AccountHistorySearchResult.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProduct.h
+c000000004CB5341000000000000009E3
+t1286943760
+s2531
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductBaserate.h
+c000000004CB5340B0000000000000931
+t1286943755
+s2353
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductBaserateSearchResult.h
+c000000004CB53410000000000000072E
+t1286943760
+s1838
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductPlanPrice.h
+c000000004CB5341000000000000008DE
+t1286943760
+s2270
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductPlanPriceSearchResult.h
+c000000004CB5340B0000000000000727
+t1286943755
+s1831
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductPrice.h
+c000000004CB5341000000000000008D6
+t1286943760
+s2262
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductPriceSearchResult.h
+c000000004CB53410000000000000071F
+t1286943760
+s1823
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductSchedule.h
+c000000004CB5341000000000000008BF
+t1286943760
+s2239
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductScheduleSearchResult.h
+c000000004CB53410000000000000072F
+t1286943760
+s1839
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandProductSearchResult.h
+c000000004CB53410000000000000070F
+t1286943760
+s1807
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandService.h
+c000000004CB5340B00000000000009DA
+t1286943755
+s2522
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandServiceSearchResult.h
+c000000004CB5340B0000000000000711
+t1286943755
+s1809
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/BrandServices.h
+c000000004CB5341000000000000011AC
+t1286943760
+s4524
+i<Foundation/Foundation.h>
+i"RestTransport3.h"
+i"XmlParser.h"
+i"BrandProductSchedule.h"
+i"BrandProductSearchResult.h"
+i"BrandProduct.h"
+i"BrandProductBaserate.h"
+i"BrandServiceSearchResult.h"
+i"BrandProductScheduleSearchResult.h"
+i"BrandProductBaserateSearchResult.h"
+i"BrandService.h"
+i"BrandProductPrice.h"
+i"BrandProductPriceSearchResult.h"
+i"BrandProductPlanPrice.h"
+i"BrandProductPlanPriceSearchResult.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/ClaimRewards.h
+c000000004CB53410000000000000087F
+t1286943760
+s2175
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/ClaimRewards.m
+c000000004CB5341000000000000008E6
+t1286943760
+s2278
+i"ClaimRewards.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/ClaimRewardsCell.xib
+c000000004CB5340B0000000000006937
+t1286943755
+s26935
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/ClaimRewardsTableCell.h
+c000000004CB5340B00000000000007DF
+t1286943755
+s2015
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/ClaimRewardsTableCell.m
+c000000004CB5340B0000000000000857
+t1286943755
+s2135
+i"ClaimRewardsTableCell.h"
+i"ClaimRewards.h"
+i"Label2.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/ClaimRewardsViewController.h
+c000000004CB5340B000000000000095F
+t1286943755
+s2399
+i<UIKit/UIKit.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/ClaimRewardsViewController.m
+c000000004CB5340B00000000000023CF
+t1286943755
+s9167
+i"ClaimRewardsViewController.h"
+i"Model.h"
+i"RewardAppDelegate.h"
+i"ClaimRewards.h"
+i"ClaimRewardsTableCell.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/ClaimRewardsViewController.xib
+c000000004CB5340B00000000000099E6
+t1286943755
+s39398
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/EarnPointsViewController.h
+c000000004CB5340B0000000000000957
+t1286943755
+s2391
+i<UIKit/UIKit.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/EarnPointsViewController.m
+c000000004CB5340B0000000000002264
+t1286943755
+s8804
+i"EarnPointsViewController.h"
+i"Model.h"
+i"RewardAppDelegate.h"
+i"ClaimRewards.h"
+i"ClaimRewardsTableCell.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/EarnPointsViewController.xib
+c000000004CB5340B0000000000009950
+t1286943755
+s39248
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/LoginViewController.h
+c000000004CB5340B00000000000007A5
+t1286943755
+s1957
+i<UIKit/UIKit.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/LoginViewController.m
+c000000004CB5340B00000000000012B5
+t1286943755
+s4789
+i"LoginViewController.h"
+i"RewardAppDelegate.h"
+i"Model.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/LoginViewController.xib
+c000000004CB5340B00000000000068BB
+t1286943755
+s26811
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/PointsHistory.h
+c000000004CB5340B00000000000007FE
+t1286943755
+s2046
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/PointsHistory.m
+c000000004CB5340B000000000000085B
+t1286943755
+s2139
+i"PointsHistory.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/PointsHistoryViewController.h
+c000000004CB5340B0000000000000939
+t1286943755
+s2361
+i<UIKit/UIKit.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/PointsHistoryViewController.m
+c000000004CB5340B0000000000001C3F
+t1286943755
+s7231
+i"PointsHistoryViewController.h"
+i"PointsHistory.h"
+i"PointsHistoryTableCell.h"
+i"Model.h"
+i"RewardAppDelegate.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/PointsHistoryViewController.xib
+c000000004CB5340B000000000000A09F
+t1286943755
+s41119
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/RewardAppDelegate.h
+c000000004CB5340B0000000000000CB4
+t1286943755
+s3252
+i<UIKit/UIKit.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/RewardAppDelegate.m
+c000000004CB5340B0000000000003FBE
+t1286943755
+s16318
+i"RewardAppDelegate.h"
+i"RewardViewController.h"
+i"Model.h"
+i"PointsHistoryViewController.h"
+i"LoginViewController.h"
+i"ClaimRewardsViewController.h"
+i"EarnPointsViewController.h"
+i<QuartzCore/QuartzCore.h>
+i"ClaimRewards.h"
+i"PointsHistory.h"
+i"NetmoboFeefactorModel.h"
+i"Account.h"
+i"Accounts.h"
+i"BrandServices.h"
+i"BrandProduct.h"
+i"BrandProductPrice.h"
+i"Transactions.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/RewardViewController.h
+c000000004CB5340B00000000000006C8
+t1286943755
+s1736
+i<UIKit/UIKit.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/RewardViewController.m
+c000000004CB5340B0000000000000C9A
+t1286943755
+s3226
+i"RewardViewController.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Icon.png
+c000000004CB53410000000000000252F
+t1286943760
+s9519
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Label2.h
+c000000004CB5341000000000000007B8
+t1286943760
+s1976
+i<UIKit/UIKit.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Label2.m
+c000000004CB534100000000000000C4D
+t1286943760
+s3149
+i"Label2.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/MainWindow.xib
+c000000004CB534100000000000004E1D
+t1286943760
+s19997
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Model.h
+c000000004CB5341000000000000009AC
+t1286943760
+s2476
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Model.m
+c000000004CB534100000000000000BE8
+t1286943760
+s3048
+i"Model.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/NetmoboFeefactorModel.h
+c000000004CB5340B000000000000098B
+t1286943755
+s2443
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/PointsHistoryCell.xib
+c000000004CB5340B000000000000767F
+t1286943755
+s30335
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/PointsHistoryTableCell.h
+c000000004CB534100000000000000845
+t1286943760
+s2117
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/PointsHistoryTableCell.m
+c000000004CB5341000000000000008A8
+t1286943760
+s2216
+i"PointsHistoryTableCell.h"
+i"PointsHistory.h"
+i"Label2.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/RestTransport3.h
+c000000004CB534100000000000000919
+t1286943760
+s2329
+i<Foundation/Foundation.h>
+i"XmlParser.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/RewardViewController.xib
+c000000004CB534100000000000005384
+t1286943760
+s21380
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Reward_Prefix.pch
+c000000004CB5341000000000000000B5
+t1286943760
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/TransactionDetailRecord.h
+c000000004CB5340B00000000000010A5
+t1286943755
+s4261
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/TransactionDetailRecordSearchResult.h
+c000000004CB53410000000000000073A
+t1286943760
+s1850
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Transactions.h
+c000000004CB5341000000000000011E1
+t1286943760
+s4577
+i<Foundation/Foundation.h>
+i"TransactionDetailRecord.h"
+i"TransactionDetailRecordSearchResult.h"
+i"RestTransport3.h"
+i"XmlParser.h"
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/XmlParser.h
+c000000004CB5341000000000000007B1
+t1286943760
+s1969
+i<Foundation/Foundation.h>
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app
+t1286943759
+s544
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app.dSYM
+t1286943759
+s136
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/ClaimRewardsCell.nib
+t1286943759
+s3712
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/ClaimRewardsViewController.nib
+t1286943759
+s6016
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/EarnPointsViewController.nib
+t1286943759
+s5959
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/Icon.png
+t1286943759
+s9519
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/Info.plist
+t1286943759
+s620
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/LoginViewController.nib
+t1286943759
+s4312
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/MainWindow.nib
+t1286943759
+s1679
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/PkgInfo
+t1286943759
+s8
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/PointsHistoryCell.nib
+t1286943759
+s4135
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/PointsHistoryViewController.nib
+t1286943759
+s6099
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/Reward
+t1286943759
+s353744
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/RewardViewController.nib
+t1286943759
+s1234
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/grayline.png
+t1286943759
+s185
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewards.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewardsTableCell.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewardsViewController.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/EarnPointsViewController.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Label2.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/LoginViewController.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Model.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistory.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistoryTableCell.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistoryViewController.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Reward.LinkFileList
+c000000004CB5340D00000000000007DA
+t1286943757
+s2010
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/RewardAppDelegate.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/RewardViewController.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/grayline.png
+c000000004CB5340B00000000000000B9
+t1286943755
+s185
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/libNetmobo.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/main.m
+c000000004CB5340B000000000000015E
+t1286943755
+s350
+i<UIKit/UIKit.h>
 
 N/Users/vipm/Desktop/Demos/Rewards demo/Account.h
 c000000004C9048970000000000001152
@@ -16408,6 +16966,10 @@ t1283946240
 s350
 i<UIKit/UIKit.h>
 
+N/var/folders/-F/-FLaDoRNHXayDK4+u-aFT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-cqipnfjpiabgwhfwapeusxikmioa/Reward_Prefix.pch.gch
+t2
+s0
+
 N/var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-ahxiqhexawqjteaohckohtqvzufq/Reward_Prefix.pch.gch
 t2
 s0
@@ -16473,8 +17035,8 @@ t1285887708
 s15232016
 
 NReward-Info.plist
-c000000004C74D1840000000000000379
-t1282724228
+c000000004CB534100000000000000379
+t1286943760
 s889
 
 CAnalyze /AurisoftApps/Netmobo/Demos/02Reward/Reward/Account.m
@@ -20138,6 +20700,9 @@ r0
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewards.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/ClaimRewards.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewards.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/ClaimRewards.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewards.o "/Users/vipm/Desktop/Demos/Rewards demo/ClaimRewards.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307580509.444897
 e307580509.519619
@@ -20270,6 +20835,9 @@ r0
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewardsTableCell.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/ClaimRewardsTableCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewardsTableCell.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/ClaimRewardsTableCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewardsTableCell.o "/Users/vipm/Desktop/Demos/Rewards demo/ClaimRewardsTableCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307580509.519720
 e307580509.597722
@@ -20400,6 +20968,9 @@ CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i
 r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewardsViewController.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/Classes/ClaimRewardsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewardsViewController.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/ClaimRewardsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/ClaimRewardsViewController.o "/Users/vipm/Desktop/Demos/Rewards demo/Classes/ClaimRewardsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -20745,6 +21316,9 @@ CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i
 r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/EarnPointsViewController.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/Classes/EarnPointsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/EarnPointsViewController.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/EarnPointsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/EarnPointsViewController.o "/Users/vipm/Desktop/Demos/Rewards demo/Classes/EarnPointsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -21234,6 +21808,9 @@ r0
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Label2.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/Label2.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Label2.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Label2.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Label2.o "/Users/vipm/Desktop/Demos/Rewards demo/Label2.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307580509.361615
 e307580509.444798
@@ -21366,6 +21943,9 @@ r0
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/LoginViewController.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/Classes/LoginViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/LoginViewController.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/LoginViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/LoginViewController.o "/Users/vipm/Desktop/Demos/Rewards demo/Classes/LoginViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307580509.223789
 e307580509.314241
@@ -21496,6 +22076,9 @@ CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i
 r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Model.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Model.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/Model.o "/Users/vipm/Desktop/Demos/Rewards demo/Model.m" normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -22127,6 +22710,9 @@ r0
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistory.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/Classes/PointsHistory.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistory.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/PointsHistory.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistory.o "/Users/vipm/Desktop/Demos/Rewards demo/Classes/PointsHistory.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307580509.277229
 e307580509.361504
@@ -22262,6 +22848,9 @@ r0
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistoryTableCell.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/PointsHistoryTableCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistoryTableCell.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/PointsHistoryTableCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistoryTableCell.o "/Users/vipm/Desktop/Demos/Rewards demo/PointsHistoryTableCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307580509.314347
 e307580509.393938
@@ -22387,6 +22976,9 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@106"Compile /AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/Classes/PointsHistoryViewController.m305018046#305018046#0(0"0(0#0#98"/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/Classes/PointsHistoryViewController.m8604412000#2305"    cd "/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Reward.build/Debug-iphonesimulator/Reward.build/Reward-generated-files.hmap" "-I/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Reward.build/Debug-iphonesimulator/Reward.build/Reward-own-target-headers.hmap" "-I/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Reward.build/Debug-iphonesimulator/Reward.build/Reward-all-target-headers.hmap" -iquote "/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Reward.build/Debug-iphonesimulator/Reward.build/Reward-project-headers.hmap" "-F/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Debug-iphonesimulator" "-I/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Debug-iphonesimulator/include" -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/libxml2 "-I/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Reward.build/Debug-iphonesimulator/Reward.build/DerivedSources/i386" "-I/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Reward.build/Debug-iphonesimulator/Reward.build/DerivedSources" -include /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-aumfxgituadbdudccssgrcrbnlbh/Reward_Prefix.pch -c "/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/Classes/PointsHistoryViewController.m" -o "/AurisoftApps/Netmobo/Demos/Reward V16 some variable cleanup/build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistoryViewController.o"0#
+
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistoryViewController.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/PointsHistoryViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/PointsHistoryViewController.o "/Users/vipm/Desktop/Demos/Rewards demo/Classes/PointsHistoryViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307580509.679602
@@ -22662,6 +23254,9 @@ r0
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/RewardAppDelegate.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/Classes/RewardAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/RewardAppDelegate.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/RewardAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/RewardAppDelegate.o "/Users/vipm/Desktop/Demos/Rewards demo/Classes/RewardAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307581273.946351
 e307581274.228191
@@ -22899,6 +23494,9 @@ CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i
 r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/RewardViewController.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/Classes/RewardViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/RewardViewController.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/RewardViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/RewardViewController.o "/Users/vipm/Desktop/Demos/Rewards demo/Classes/RewardViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
@@ -24527,6 +25125,9 @@ r0
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/main.o "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/main.o "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/Reward.build/Debug-iphonesimulator/Reward.build/Objects-normal/i386/main.o "/Users/vipm/Desktop/Demos/Rewards demo/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s307580508.993375
 e307580509.154877
@@ -24831,6 +25432,30 @@ r0
 CCompileXIB "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/RewardViewController.xib"
 r0
 
+CCompileXIB "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/ClaimRewardsCell.xib"
+r0
+
+CCompileXIB "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/ClaimRewardsViewController.xib"
+r0
+
+CCompileXIB "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/EarnPointsViewController.xib"
+r0
+
+CCompileXIB "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/LoginViewController.xib"
+r0
+
+CCompileXIB "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/Classes/PointsHistoryViewController.xib"
+r0
+
+CCompileXIB "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/PointsHistoryCell.xib"
+r0
+
+CCompileXIB "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/RewardViewController.xib"
+r0
+
 CCompileXIB "/Users/vipm/Desktop/Demos/Rewards demo/ClaimRewardsCell.xib"
 r0
 
@@ -25129,6 +25754,9 @@ r0
 CGenerateDSYMFile "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/build/Debug-iphonesimulator/Reward.app.dSYM" "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/build/Debug-iphonesimulator/Reward.app/Reward"
 r0
 
+CGenerateDSYMFile "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app.dSYM" "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/Reward"
+r0
+
 CGenerateDSYMFile "/Users/vipm/Desktop/Demos/Rewards demo/build/Debug-iphonesimulator/Reward.app.dSYM" "/Users/vipm/Desktop/Demos/Rewards demo/build/Debug-iphonesimulator/Reward.app/Reward"
 s307581274.348469
 e307581274.496625
@@ -25222,6 +25850,9 @@ r0
 CLd "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/build/Debug-iphonesimulator/Reward.app/Reward" normal i386
 r0
 
+CLd "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/Reward" normal i386
+r0
+
 CLd "/Users/vipm/Desktop/Demos/Rewards demo/build/Debug-iphonesimulator/Reward.app/Reward" normal i386
 s307581274.228286
 e307581274.348333
@@ -25305,6 +25936,9 @@ r0
 CProcessInfoPlistFile "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/build/Debug-iphonesimulator/Reward.app/Info.plist" Reward-Info.plist
 r0
 
+CProcessInfoPlistFile "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app/Info.plist" Reward-Info.plist
+r0
+
 CProcessInfoPlistFile "/Users/vipm/Desktop/Demos/Rewards demo/build/Debug-iphonesimulator/Reward.app/Info.plist" Reward-Info.plist
 r0
 
@@ -25334,6 +25968,9 @@ xProcessInfoPlistFile
 x/AurisoftApps/Netmobo/Demos/Reward/build/Debug-iphonesimulator/Reward.app/Info.plist
 xReward-Info.plist
 lSLF07#2@25"Process Reward-Info.plist305110791#305110791#0(0"0(0#0#52"/AurisoftApps/Netmobo/Demos/Reward/Reward-Info.plist29555366482477168#464"    cd /AurisoftApps/Netmobo/Demos/Reward    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Reward-Info.plist -genpkginfo /AurisoftApps/Netmobo/Demos/Reward/build/Debug-iphonesimulator/Reward.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /AurisoftApps/Netmobo/Demos/Reward/build/Debug-iphonesimulator/Reward.app/Info.plist0#
+
+CProcessPCH /var/folders/-F/-FLaDoRNHXayDK4+u-aFT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-cqipnfjpiabgwhfwapeusxikmioa/Reward_Prefix.pch.gch Reward_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CProcessPCH /var/folders/e4/e4mPBpmIFD4ocEW4Yd532E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Reward_Prefix-ahxiqhexawqjteaohckohtqvzufq/Reward_Prefix.pch.gch Reward_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -25530,6 +26167,9 @@ CTouch "/AurisoftApps/Netmobo/Demos/Reward V7 earn points working/build/Debug-ip
 r0
 
 CTouch "/AurisoftApps/Netmobo/Demos/Reward V8 claim rewards working n new libe/build/Debug-iphonesimulator/Reward.app"
+r0
+
+CTouch "/Users/richard/svn/admin.netmobo.com/Iphone QS/RewardProgramiPhoneDemo/build/Debug-iphonesimulator/Reward.app"
 r0
 
 CTouch "/Users/vipm/Desktop/Demos/Rewards demo/build/Debug-iphonesimulator/Reward.app"
