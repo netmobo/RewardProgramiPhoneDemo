@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* RewardAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 715}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1628}";
+			sepNavWindowFrame = "{{15, 303}, {885, 570}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* RewardAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 4524}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1628}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Reward */ = {
+		activeExec = 0;
+		executables = (
+			799FDE8F1265A31D006CE70E /* Reward */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* RewardViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5304, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1631}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 799FDE8F1265A31D006CE70E /* Reward */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Reward */;
+		codeSenseManager = 799FDEAB1265A31F006CE70E /* Code sense */;
+		executables = (
+			799FDE8F1265A31D006CE70E /* Reward */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					382,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 308650781;
+			PBXWorkspaceStateSaveDate = 308650781;
+		};
+		perUserProjectItems = {
+			799FDEAE1265A85A006CE70E /* PBXTextBookmark */ = 799FDEAE1265A85A006CE70E /* PBXTextBookmark */;
+			799FDEAF1265A85A006CE70E /* PBXTextBookmark */ = 799FDEAF1265A85A006CE70E /* PBXTextBookmark */;
+			799FDEB01265A85A006CE70E /* PBXTextBookmark */ = 799FDEB01265A85A006CE70E /* PBXTextBookmark */;
+			799FDEB11265A85A006CE70E /* PBXTextBookmark */ = 799FDEB11265A85A006CE70E /* PBXTextBookmark */;
+			799FDEB21265A85A006CE70E /* PBXTextBookmark */ = 799FDEB21265A85A006CE70E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 799FDEAA1265A31F006CE70E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2E12D1DB126300700031E0AE /* Account.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {5297, 1131}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1607}";
+		};
+	};
+	2E9EDA211227B18E009E3279 /* Debugentitlements.plist */ = {
+		activeExec = 0;
+	};
+	799FDE8F1265A31D006CE70E /* Reward */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Reward;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	799FDEAA1265A31F006CE70E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	799FDEAB1265A31F006CE70E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	799FDEAE1265A85A006CE70E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* RewardAppDelegate.h */;
+		name = "RewardAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1628;
+		vrLoc = 0;
+	};
+	799FDEAF1265A85A006CE70E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* RewardAppDelegate.m */;
+		name = "RewardAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1628;
+		vrLoc = 0;
+	};
+	799FDEB01265A85A006CE70E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* RewardViewController.h */;
+		name = "RewardViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1631;
+		vrLoc = 0;
+	};
+	799FDEB11265A85A006CE70E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2E12D1DB126300700031E0AE /* Account.h */;
+		name = "Account.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1607;
+		vrLoc = 0;
+	};
+	799FDEB21265A85A006CE70E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2E12D1DB126300700031E0AE /* Account.h */;
+		name = "Account.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1607;
+		vrLoc = 0;
+	};
+}
