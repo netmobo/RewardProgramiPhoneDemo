@@ -21,9 +21,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 
 @interface Account : NSObject {
-	
-	
-@protected	
+
+
+@protected
 	NSString *accountID;
 	NSNumber * accountPlanID;
 	NSString *activationDate;
